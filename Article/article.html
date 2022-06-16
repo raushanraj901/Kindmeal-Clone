@@ -5,40 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Article/article.css">
+    <link rel="stylesheet" href="../footer/footer.css">
     
     <title>Article</title>
 </head>
-<style>
-    *{
-        margin: 0;padding: 0;
-    }
-    #artContent{
-        background-color: #f0f0f0;
-        padding: 20px 0px 30px 0px;
-        font-family: 'Open Sans', serif;
-    }
-    #alignleft{
-        width: 82%;
-        margin: auto;
-    }
-   
-    .artHead{
-        font-size: 28px;
-        margin-bottom: 15px;
-        font-family: 'Open Sans', serif;
-        font-weight: normal;
-        color:#444444;
-    }
-    .blue{
-        color: #2184ff;
-    text-decoration: none;
-    font-weight: normal;
-    }
-    #btmp{
-        margin: 20px 0px 0px 0px;
-    }
-</style>
+
 <body>
+    <!-- // top content and some text  -->
     <div id="artContent">
         <div id="alignleft">
         <div class="artHead">Yummy News, Articles & Videos</div>
@@ -48,11 +23,37 @@
         </div>
 
     </div>
+
+<!-- page numbers and next button -->
+
+<div id="aNumbers">
+    <div class="pgeN"> Page:
+        <p id="activep">1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+        <p>...</p>
+        <p>1402</p>
+    </div>
+    <div class="nxt">Next
+        <i class='fa fa-angle-double-right'></i></div>
+</div>
+<div  id="aContent"></div>
+
+
+
+<div id="footer"></div>
     
 </body>
 </html>
-<script src="article.js">
-
+<script type="module" src="../Article/article.js" >
+ 
 
 
 </script>
