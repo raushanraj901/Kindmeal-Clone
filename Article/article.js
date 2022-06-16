@@ -3,7 +3,7 @@
 // footer
 import{footer} from "../footer/footercomponents/footer.js"
 
-// document.getElementById("footer").innerHTML=footer()
+document.getElementById("footer").innerHTML=footer()
 
 
 // Article javascript

@@ -1,65 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../Article/article.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../Article/article.css" />
     <!-- ******* -->
-    <link rel="stylesheet" href="../Directory/directory.css">
+    <link rel="stylesheet" href="../Directory/directory.css" />
 
-    <link rel="stylesheet" href="../footer/footer.css">
-    
+    <link rel="stylesheet" href="../footer/footer.css" />
+
     <title>Directory</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- 
+     <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="600"
+            height="500"
+            id="gmap_canvas"
+            
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          > -->
+
     <!-- // top content and some text  -->
     <div id="artContent">
-        <div id="alignleft">
-        <div class="artHead">
-            Vegetarian Restaurants In Malaysia</div>
+      <div id="alignleft">
+        <div class="artHead">Vegetarian Restaurants In Malaysia</div>
         <p>
-            Looking for even more delicious choices? Explore hundreds of vegetarian and vegan restaurants in Malaysia.</p>
-            <p id="btmp">Are you a restaurant or cafe owner? Boost your business with an attractive KindMeal profile and deals for FREE.<a href="https://www.facebook.com/KindMeal.my" class="blue" target="_blank">Find out more</a> or <a href="https://Twitter.com/KindMeal" class="blue" target="_blank">contact us </a>  now</p>
-            <div class="Dinputs"> 
-                <input class="dsinput" type="text" placeholder="SearchShop Names">
-               <select id="Dshops">
-                <option value="all">All Shops in Malaysia</option>
-                <option value="selengor">Selangor</option>
-                <option value="kenala">kenala</option>
-                <option value="lumpur">lumpur</option>
-                <option value="Nageri">Nageri</option>
-                <option value="Sembilan">Sembilan</option>
-                <option value="melaka">Melaka<option>
-               </select>
-       
-          <button id="dsbtn" >Search Shops</button>
-      
-     
+          Looking for even more delicious choices? Explore hundreds of
+          vegetarian and vegan restaurants in Malaysia.
+        </p>
+        <p id="btmp">
+          Are you a restaurant or cafe owner? Boost your business with an
+          attractive KindMeal profile and deals for FREE.<a
+            href="https://www.facebook.com/KindMeal.my"
+            class="blue"
+            target="_blank"
+            >Find out more</a
+          >
+          or
+          <a href="https://Twitter.com/KindMeal" class="blue" target="_blank"
+            >contact us
+          </a>
+          now
+        </p>
+        <div class="Dinputs">
+          <input class="dsinput" type="text" placeholder="SearchShop Names" />
+          <select id="Dshops">
+            <option value="all">All Shops in Malaysia</option>
+            <option value="selengor">Selangor</option>
+            <option value="kenala">kenala</option>
+            <option value="lumpur">lumpur</option>
+            <option value="Nageri">Nageri</option>
+            <option value="Sembilan">Sembilan</option>
+            <option value="melaka">Melaka</option>
+            <option></option>
+          </select>
+
+          <button id="dsbtn">Search Shops</button>
+
           <button id="dabtn">Add A Shop</button>
-      
-    
-            </div>
-        
         </div>
+      </div>
     </div>
 
-<!-- hover buttons -->
-<div id="fmbtn">
-   <button class="dm1">Vegetarian Directory</button>
-   <button class="dm2">Featured Restaurants</button>
-   <button class="dm3">Food Menu</button>
-   <button class="dm4">Food Map</button>
-</div>
+    <!-- hover buttons -->
+    <div id="fmbtn">
+      <button class="dm1">Vegetarian Directory</button>
+      <button class="dm2">Featured Restaurants</button>
+      <button class="dm3">Food Menu</button>
+      <button class="dm4">Food Map</button>
+    </div>
 
+    <!-- page numbers and next button -->
 
-<!-- page numbers and next button -->
-
-<div id="aNumbers">
-    <div class="pgeN"> Page:
+    <div id="aNumbers">
+      <div class="pgeN">
+        Page:
         <p id="activep">1</p>
         <p>2</p>
         <p>3</p>
@@ -72,20 +104,30 @@
         <p>10</p>
         <p>...</p>
         <p>1402</p>
+      </div>
+      <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
     </div>
-    <div class="nxt">Next
-        <i class='fa fa-angle-double-right'></i></div>
-</div>
-<div  id="dContent"></div>
+    <div id="dContent"></div>
+    <div id="aNumbers">
+        <div class="pgeN">
+          Page:
+          <p id="activep">1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+          <p>...</p>
+          <p>1402</p>
+        </div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+      </div>
 
-
-
-<div id="footer"></div>
-    
-</body>
+    <div id="footer"></div>
+  </body>
 </html>
-<script type="module" src="../Directory/directory.js" >
- 
-
-
-</script>
+<script type="module" src="../Directory/directory.js"></script>
