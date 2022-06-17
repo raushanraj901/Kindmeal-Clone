@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <title>Article view video</title>
+</head>
+<style>
+    *{
+        margin: 0;padding: 0;
+        font-family: 'Open Sans', serif;
+    }
+    #allvideocontent{
+
+        display: flex;
+       
+        gap: 30px;
+        width:90%;
+      
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        /* border: 1px solid grey; */
+        padding-left: 50px;
+       
+      
+    }
+    #vdiv1{
+        width: 70%;
+        /* border: 1px solid red; */
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius: 10px;
+        padding-top:20px;
+       
+    }
+    #vdiv2{
+        width: 22%;
+        /* border: 1px solid grey; */
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.2) 0px 3px 6px;
+        text-align: center;
+        border-radius: 10px;
+      
+
+      
+    }
+    #vdiv2>h3{
+        font-weight: normal;
+        color:#444444;
+        margin: 10px;
+    }
+    #vdiv2 div{
+        width: 83%;
+        /* border: 1px solid red; */
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        font-size: 14px;
+        color: #444444;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        
+    }
+    #vdiv2 img{
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+    }
+   
+    #vimg{
+        width: 95%;
+        margin: auto;
+      
+        /* border: 1px solid grey; */
+    }
+    .div{
+        /* border: 1px solid red; */
+        width: 87%;
+        margin: auto;
+    }
+    .div h3{
+        font-size: 22px;
+        color: #444444;
+        font-weight: 300;
+    }
+    .div h3+p{
+        color: rgb(173, 169, 169);
+        font-size: 14px;
+        margin-top: 0.5%;
+    
+       
+    }
+    .div h3+p+p{
+        color: rgb(173, 169, 169);
+        font-size: 12px;
+        margin-bottom: 3%;
+       
+        
+    }
+    .div p+p+p{
+        color: #444444;
+        font-size: 14px;
+        margin-bottom: 3%;
+    }
+    .div button{
+    background-color: #f90840;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    }
+    .div button:hover{
+        background-color: rgb(221, 46, 46);
+    }
+   
+    
+    
+    
+
+</style>
+<body>
+    <div id="artContent"></div>
+
+
+    <div id="allvideocontent">
+        <div  id="vdiv1">
+            <div id="vimg"></div>
+
+          
+            <!-- videothum -->
+
+            <!-- facebook and twitter logo -->
+            <div id="vlogo">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div id="logos"></div>
+            <!-- description -->
+        </div>
+        <div id="vdiv2">
+            <h3>More Yummy 
+                articles
+            </h3>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/8/8144-7911-s.jpg" alt="">
+                <p>Simple Life Bukit Tinggi <br>
+                    shifong</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/10/10190-10834-s.jpg" alt="">
+                <p>A Delicious KindMoment <br>
+                    DebbieChai</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/17/17297-27431-s.jpg" alt="">
+                <p>Davina Da Vegan <br>
+                    DavinaGoh</p>
+            </div>
+            <div>
+                <img src="https://media.giphy.com/media/PevfJ5ZX0FkDC/giphy.gif" alt="gifs.jpg">
+                <p>giphy.com</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+
+import {artCont} from "../Article/Articlecomponents/artcontent.js";
+document.getElementById("artContent").innerHTML=artCont();
+
+// footbar
+import {footer} from "../footer/footercomponents/footer.js"
+document.getElementById("footer").innerHTML=footer()
+
+
+
+    let videocontent =JSON.parse(localStorage.getItem("viewvideocontent"))
+    console.log(videocontent);
+
+    let video = document.createElement("img");
+    video.src =videocontent.image;
+    document.getElementById("vimg").append(video)
+    let title=document.createElement("h3");
+    title.innerText=videocontent.title;
+    let stitle=document.createElement("p");
+    stitle.innerText=videocontent.stitle;
+    let para=document.createElement("p");
+    para.innerText=videocontent.para;
+    let date = document.createElement("p");
+    date.innerText=videocontent.date;
+
+    let bta= document.createElement("button");
+   bta.innerText="Back To Article";
+   bta.addEventListener("click",function(){
+    window.location.href="article.html"
+   })
+   let div= document.createElement("div");
+   div.setAttribute("class","div")
+   div.append(title,stitle,date,para,bta)
+    document.getElementById("vdiv1").append(div)
+
+
+    
+</script>

@@ -6,16 +6,25 @@ import{footer} from "../footer/footercomponents/footer.js"
 document.getElementById("footer").innerHTML=footer()
 
 
+
+//art content headlines
+
+
+import{artCont} from "../Article/Articlecomponents/artcontent.js"
+document.getElementById("artContent").innerHTML=artCont()
+
+
 // Article javascript
 
    
 let articleArr = [
     { 
     image:"https://www.kindmeal.my/photos/article/19/19846-l.jpg",
-    title: "Funny Alpacas",
+    title: "Eathami Cafe , Balakong Pampers You With Healthy And Delicious Meals, Prepared F..",
     stitle:"by KindMeal.my",
-    para:"Alpacas are so goofy 😂 🦙",
-    date:"16 June 2022"
+    para:"EatHami Cafe 食坊, Balakong pampers you with healthy and delicious meals, prepared from fresh, quality ingredients. Feast on their signature teriyaki tofu brown rice, vegan soba, tofu milky pasta, Hami green tea waffle and more! Enjoy 10% off:",
+    date:"16 June 2022",
+    iframesrc:"https://www.kindmeal.my/photos/article/19/19846-l.jpg"
 },
     { 
     image:"https://www.kindmeal.my/photos/article/19/19843-l.jpg",
@@ -75,8 +84,6 @@ let articleArr = [
 },
 
 
-
-
 ]
 console.log(articleArr)
 var aContent =document.getElementById("aContent");
@@ -99,14 +106,15 @@ divimg.setAttribute("class","artimgdiv");
 
 let btn = document.createElement("h3");
 btn.setAttribute("class","btnset");
-btn.innerText ="View Video"
+btn.innerText ="View Video";
+btn.addEventListener("click",function(){
+    viewvideo(el)
+})
 
 
 let div = document.createElement("div");
 div.setAttribute("class","artdiv")
-btn.setAttribute("click",function(){
-    articlecontent(el)
-})
+
 let btndiv = document.createElement("div");
 btndiv.setAttribute("class","btndiv")
 btndiv.append(btn,tarik)
@@ -119,6 +127,8 @@ aContent.append(div)
 
 
 });
-function articlecontent(el){
-
+function viewvideo(el){
+     console.log(el)
+    localStorage.setItem("viewvideocontent",JSON.stringify(el) )
+    window.location.href="viewArtVideo.html"
 }

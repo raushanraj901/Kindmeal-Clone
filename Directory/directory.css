@@ -87,22 +87,6 @@
  }
 
 
-/* 
-
- .gmap_canvas {
-   overflow: hidden;
-   background: none !important;
-   height: 500px;
-   width: 600px;
- } */
-
-
-
-
-
-
-
-
  /* content inside directory */
  #dContent{
     width:80%;
@@ -166,4 +150,9 @@ font-weight: normal;
    margin: 10px 10px;
   
  }
+ #dContent button:hover{
+  text-decoration: underline;
+ }
+
+ /* maps div2 */
 
