@@ -1,0 +1,128 @@
+a{
+    font-size: 20px;
+    color: black;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* font-weight: bold; */
+}
+#logo{
+    margin-left:40%;
+    margin-top:50px;
+    width: 400px;
+    size:-300px;
+    /* height:5px;  */
+     /* margin-bottom: -30px;  */
+ }  
+ 
+
+h4{
+    text-align:left;
+    font-size:40px;
+    margin-top:30px;
+    color:gray;
+    margin-left:190px;
+    margin-bottom: 40px;
+    
+}
+
+
+#main_container{
+    margin: auto;
+    height: 60%;
+    width:700px;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+ 
+  form{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 15%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+     border: 0px;
+    font-size: 15px;
+    width: 800px;
+    border-radius: 5px;
+    padding: 5px;
+     /* border:1px solid black;  */
+    /* font-weight:1px solid black; */
+  }
+
+  
+
+#email{
+    height:50px;
+    width:500px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-color: beige;
+     margin-bottom:40px;
+     margin-left: 70px;
+      /* row-gap:50px ;  */
+     border-radius:5px;
+    
+    }
+
+#password{
+    border-color: beige;
+    font-size: 20px;
+    height:50px;
+    width:500px;
+    margin-top:-80px;
+    margin-bottom:50px;
+    margin-left: 70px;
+    border-radius: 5px;
+
+}
+
+
+
+
+#login_btn{
+   
+    height:70px;
+    width:300px;
+    background-color:rgb(52, 152, 52);
+    margin-top:5px;
+    margin-left:170px;
+     margin-bottom:50px;
+     font-size:30px;
+     border-radius:10px;
+     color:white;
+     border-bottom: 5px;
+     /* justify-content:center;
+     align-items:center; */
+
+} 
+
+
+#fb_login_btn{
+   
+    height:70px;
+    width:400px;
+    margin-left:130px;
+    background-color:rgb(43, 113, 211);
+    margin-top:20px;
+     margin-bottom:40px;
+     font-size:30px;
+     border-radius:10px;
+     color:white;
+     /* justify-content:center;
+     align-items:center; */
+
+} 
+#target{
+    font-size: 20px;
+    color: black;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* font-weight: bold; */
+}
+#anchor{
+    margin-left:270px;
+}
+
