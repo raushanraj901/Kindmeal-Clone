@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="meal_d.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style type="text/css" >
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="categoryItems"></div>
+    <!-- <header>
+        <div id="logodiv"><img src="./IMG/kind_meal_logo_homepage.png" alt="logo"></div>
+        <div class="headicon" id="linkicon"><img src="./IMG/linkicon_homepage.png" alt="linkicon"></div>
+        <div class="headicon"><img src="./IMG/fbicon_homepage.png" alt="fbicon"></div>
+        <div class="headicon"><img src="./IMG/twittericon_homepage.png" alt="linkicon"></div>
+        <div id="btnsdiv">
+            <button id="loginbtn">Login</button>
+            <button id="fbbtn">Facebook</button>
+            <button id="emailbtn">Email</button>
+            <button id="signupbtn">Sign Up</button>
+        </div>
+    </header> -->
+    <!-- <nav>
+        <a href="./index.html" target="_blank" rel="noopener noreferrer">
+            <li id="one">Home</li>
+        </a>
+        <a href="./meal_deals.html" target="_blank" rel="noopener noreferrer">
+            <li class="highlighted_nav">Meal Deals</li>
+            give the "highlighted_nav" class to the li you want to highlight -->
+        <!--  </a> -->
+        <!-- <a href="https://www.kindmeal.my/moments.htm" target="_blank" rel="noopener noreferrer">
+            <li>KindMoments</li>
+        </a>
+        <a href="https://www.kindmeal.my/hotpicks.htm" target="_blank" rel="noopener noreferrer">
+            <li>Hot Picks</li>
+        </a>
+        <a href="./Recipes.html" target="_blank" rel="noopener noreferrer">
+            <li>Recipes</li>
+        </a>
+        <a href="https://www.kindmeal.my/vegetarian_directory.htm" target="_blank" rel="noopener noreferrer">
+            <li>Directory</li>
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+            <li>Articles</li>
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+            <li id="digireward">Digi Rewards</li>
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+            <li id="last">Help</li>
+        </a>
+    </nav> --> 
+    <div id="topbody">
+        <div id="top">
+            <pre class="inline"><h2 class="inline"><span class="inline">Meat-Free Deals </span> | <span class="lighter inline"> Restaurants In Malaysia</span></h2></pre> 
+            <br>
+            <br>
+            <p>Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants.<br/> No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount!</p>
+            <br>
+            <p>Download our <a href="">mobile app</a> now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>
+            <br>
+            <form class="inline" action=""><input type="text" id="searchs" placeholder="Search Shop or Deal Name"><select name="options" id="option">
+                <option value="">All Categories</option>
+                <option value="pasta">Pasta</option>
+                <option value="burger">Burger</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="salad">Salad</option>
+                <option value="bakery">Bakery</option>
+                <option value="hightea">Tea & Dessert</option>
+                <option value="local">Local Delights</option>
+                <option value="japanesekorean">Jap & Korean</option>
+                <option value="chinesevegetarian">Chinese</option>
+                <option value="soup">Soup</option>
+                <option value="cute">Cute</option>
+                
+            </select>
+        <select name="" id="city">
+                <option value="0">All Locations</option>
+                <option value="">Klang Valley</option>
+                <option value="60">&bull;&nbsp; Kuala Lumpur</option>
+                <option value="42">&bull;&nbsp; Petaling Jaya</option>
+                <option value="20">&bull;&nbsp; Ampang</option>
+                <option value="21">&bull;&nbsp; Ara Damansara</option>
+                <option value="22">&bull;&nbsp; Bangsar</option>
+                <option value="23">&bull;&nbsp; Bangsar South</option>
+                <option value="24">&bull;&nbsp; Bukit Bintang</option>
+                <option value="26">&bull;&nbsp; Bukit Damansara</option>
+                <option value="27">&bull;&nbsp; Cheras</option>
+                <option value="29">&bull;&nbsp; Damansara Heights</option>
+                <option value="30">&bull;&nbsp; Damansara Perdana</option>
+                <option value="31">&bull;&nbsp; Damansara Utama</option>
+                <option value="62">&bull;&nbsp; Ipoh</option>
+                <option value="33">&bull;&nbsp; Kelana Jaya</option>
+                <option value="34">&bull;&nbsp; Kepong</option>
+                <option value="35">&bull;&nbsp; Klang</option>
+                <option value="37">&bull;&nbsp; Kota Damansara</option>
+                <option value="39">&bull;&nbsp; Mont Kiara</option>
+                <option value="40">&bull;&nbsp; Mutiara Damansara</option>
+                <option value="41">&bull;&nbsp; Old Klang Road</option>
+                <option value="44">&bull;&nbsp; Puchong</option>
+                <option value="45">&bull;&nbsp; Pudu</option>
+                <option value="46">&bull;&nbsp; Putrajaya</option>
+                <option value="48">&bull;&nbsp; Sepang</option>
+                <option value="50">&bull;&nbsp; Seri Kembangan</option>
+                <option value="51">&bull;&nbsp; Setapak</option>
+                <option value="52">&bull;&nbsp; Shah Alam</option>
+                <option value="53">&bull;&nbsp; Sri Hartamas</option>
+                <option value="54">&bull;&nbsp; Sri Petaling</option>
+                <option value="55">&bull;&nbsp; Subang</option>
+                <option value="56">&bull;&nbsp; Taman Desa</option>
+                <option value="58">&bull;&nbsp; Taman Tun</option>
+                <option value=""></option>
+                <option value="">Other States</option>
+                <option value="41361" >&bull;&nbsp; Terengganu</option>
+                <option value="41330" >&bull;&nbsp; Perak</option>
+            </select></form><button id="search" class="inline">Search Deals</button><button id="browse" class="inline">Browse Restaurants</button>
+        </div>
+    </div>
+    <div id="mainbody">
+      
+        <div id="imgbox">
+            <img src="https://www.kindmeal.my/images/banner_directory.jpg" alt="">
+        </div>
+        <div id="buttons1">
+
+        </div>
+        <div id="posts" class="flexbox">
+           
+        </div>
+        <div id="buttons2">
+
+        </div>
+    </div>
+    <div id="bottombody" style="text-align: center; margin-top: 130px;">
+        <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt="">
+    </div>
+   
+    <!-- footer -->
+    <div id="footer">
+       
+    </div>
+    
+    <!-- <div id="footpara">
+        <footer id="footer">
+            <div>
+                <p>General</p>
+                <a href="./index.html" target="_blank" rel="noopener noreferrer"><li>Home</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Sign Up</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Businesses / Restaurateurs</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Advertising</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>About KindMeal.my</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Help & FAQ</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Terms & Conditions</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Inspiring Partners</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Lifestyle Ambassadors</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Jobs & Careers</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Contact Us</li></a>
+            </div>
+            <div>
+                <p>Features</p>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Meat-Free Deals</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Tasty Menus</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Kind Moments</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Meat-Free Recipes</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Member Recommendations</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Featured Restaurants</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Vegetarian & Vegan Directory</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Food Map</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Become A Superhero</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Vegan News & Vegetarian Articles</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Latest Comments</li></a>
+            </div>
+            <div>
+                <p>Social Media</p>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>KindMeal Widget</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Facebook</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Twitter</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Instagram</li></a>
+            </div>
+            <div>
+                <p>Mobile</p>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>iPhone & iPod App</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Android App</li></a>
+                <br>
+                <p>Exciting Promos</p>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Gadhimai: Ending Mass Slaughter</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Free Meals</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Food Bloggers</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Uber CHIRP</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Jane Goodall Contest</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Win Digi iPhone 6</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Feed The Poor</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Win Superhero Gifts</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Win an iPad Mini 3</li></a>
+            </div>
+            <div>
+                <p>PetFinder.my</p>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li> Adopt A Pet</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li> Smartphone Apps</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>WAGazine</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Discussion Forum</li></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><li>Medical Fund</li></a>
+            </div>
+        </footer>
+
+        <p>Copyright © KindMeal.my, 2014 - 2021. All rights reserved.</p>
+        <p>This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products or alcohol, please view individual listings for details.</p>
+    </div> -->
+</body>
+</html>
+
+<script  src="./meal.js"></script>
+
+<script type="module">
+    import { navbar, categoryItems } from "./navbar.js";
+    document.getElementById("navbar").innerHTML = navbar();
+    document.getElementById("categoryItems").innerHTML = categoryItems();
+    
+     import {footer} from "./footer.js";
+     document.getElementById("footer").innerHTML=footer();
+    
+    </script>

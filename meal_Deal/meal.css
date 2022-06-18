@@ -1,0 +1,260 @@
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 4%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-left: 30%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+a{
+    text-decoration: none;
+    color: rgba(45,150,255,255);
+}
+a:hover{
+    text-decoration: underline;
+}
+#extop{
+    width: 100%;
+    height: 300px;
+}
+#extimg-box{
+    position: absolute;
+    z-index: 10;
+    top: 285px;
+    left: 12%;
+    width: 16%;
+    height: 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#extexts{
+    position: absolute;
+    width: 100%;
+    margin: 225px 0px 10px 0%;
+}
+
+.extend{
+    width: 80%;
+    margin: auto;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#mainbodyex{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shift-left{
+    margin-left: 29%;
+}
+
+.inline{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+#exboxs{
+    height: 353px;
+    border:0.5px solid lightgray;
+    
+}
+#exboxs,#topimg_box1,#topimg_box2{
+    width: 49.6%;
+    border-bottom:0.5px solid lightgray;
+   
+}
+#topimg_box1{
+    border-right:0.5px solid lightgray;
+    
+}
+
+
+#topimg_box1,#topimg_box2{
+    margin: 0px;
+    height: 150px;
+}
+#toplower{
+    width: 100%;
+    height: 140px;
+   padding: 2%;
+}
+
+#eximgbox{
+    width: 50%;
+}
+
+.align-center{
+    text-align: center;
+}
+#bluebutton{
+    background: rgba(45,150,255,255);
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+}
+button,input{
+    outline: none;
+  }
+  button:hover{
+    opacity: 0.7;
+  }
+  .flex{
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+
+  .flexbox{
+        flex-direction: row;
+  }
+  #double{
+      color: rgba(35,132,255,255);
+      font-weight: 700;
+      font-size: 20px;
+  }
+  #double:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  #textbox1_ex,#textbox2_ex{
+      padding:2%;
+  }
+
+  .stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+    font-size: 30px;
+  }
+   
+  .stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+    color: rgb(204, 200, 200);
+  }
+   
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+   
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+  }
+
+#textbox1_ex,#textbox2_ex{
+    width: 46%;
+}
+
+#buttons_ex>button{
+    border: 0px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 19px;
+    color: rgb(100, 100, 100);
+    margin: 0% 1%;
+}
+#buttons_ex>button:hover{
+    border-bottom: 1px solid rgb(109, 109, 109);
+    opacity: 1;
+}
+#placeholder_ex{
+    width: 100%;
+}
+
+.selected{
+    width: 30%;
+    height: 25px;
+}
+.icons{
+    display:inline-block;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup:hover .popuptext{
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.disabled{
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+  cursor: default;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

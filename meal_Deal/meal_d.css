@@ -1,0 +1,310 @@
+a{
+    text-decoration: none;
+    color: rgba(45,150,255,255);
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  
+  
+    .fa {
+      padding: 2px;
+      font-size: 30px;
+      width: 4%;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      margin-left: 40%;
+    }
+  
+    .fa:hover {
+      opacity: 0.7;
+  }
+  body{
+    background: linear-gradient(0deg,#e8e8e8 0%, #f9f9f9 51%,#f8f8f8c2 75%);
+  }
+  #topbody,#bottombody{
+      background: rgba(230,230,230,255);
+  }
+  #mainbody,#top{
+      width: 80%;
+      margin: auto;
+      padding: 2%;
+  }
+  .inline{
+      display: inline;
+      font-family: 'Roboto', sans-serif;
+  }
+  #top{
+      white-space: normal;
+      overflow-x: auto;
+      overflow-y: hidden;
+      
+  }
+  .lighter{
+      color: rgb(133, 128, 128);
+  }
+  
+  #top>button,#top>form>input,select{
+      width: 15%;
+      margin: 1%;
+      padding: 0.6%;
+      color: rgb(136, 136, 136);
+      font-size: 17px;
+      border: 1px solid rgb(226, 226, 226);
+      border-radius: 5px;
+  }
+  #top>form>input{
+      width: 22%;
+    
+  }
+  #top>button{
+      width: 16%;
+      border-radius: 5px;
+      border: 0px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 0.9%;
+      cursor: pointer;
+  }
+  #top>button:hover{
+      opacity: 0.7;
+  }
+  #search{
+      background-color: rgba(245,56,56,255);
+  }
+  #browse{
+      background-color: rgba(4,190,90,255);
+  }
+  #imgbox{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: pointer;
+  }
+  #imgbox>img{
+      width: 100%;
+  }
+  button,input{
+    outline: none;
+  }
+  button:hover{
+    opacity: 0.7;
+    border-bottom:  1px solid rgb(109, 109, 109);
+  }
+  #buttons1>button,#buttons2>button{
+      width: 2%;
+      padding: 0.2%;
+      margin: 0.5%;
+      margin-top: 3%;
+      border: 0px;
+      color: rgb(30,129,176);
+      background: white;
+      font-size: 14px;
+  }
+  #buttons1>#next,#buttons2>#next{
+    margin-left: 75%;
+    border: 1px solid lightgray;
+    width: 7%;
+    height: 25px;
+    background: rgb(238, 238, 238);
+    color: black;
+  
+  }
+  .flexbox{
+      display: flex;
+      gap: 6%;
+      
+      flex-wrap: wrap;
+  }
+  
+  .flex{
+      flex-direction: row;
+      margin: 2% 0px;
+     /* flex-grow: 1;*/
+     
+  }
+  #posts{
+      width: 100%;
+  }
+  
+  #posts>div{
+      width: 46.5%;
+      height: 530px;
+      border-radius: 9px ;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #imgs{
+      background-size: 100% 300px;
+      width: 100%;
+      height: 300px;
+      border-radius: 9px ;
+      background-attachment: local;
+      position: relative;
+      cursor: pointer;
+  }
+  
+  #imgs>h2{
+      position: absolute;
+      z-index: 10;
+      margin-top: 0%;
+      top: 260px;
+      color: white;
+      right: auto;
+      text-align: center;
+      width: 100%;
+  }
+  .flex h2 span { 
+      display: block;
+      background: rgb(0, 0, 0);
+      background: rgba(19, 19, 19, 0.7);
+      padding: 5px; 
+      width: 98%;
+   }
+   .padded{
+       padding: 2%;
+   }
+   .stars-outer {
+      display: inline-block;
+      position: relative;
+      font-family: FontAwesome;
+      font-size: 25px;
+    }
+     
+    .stars-outer::before {
+      content: "\f006 \f006 \f006 \f006 \f006";
+      color: lightgray;
+    }
+     
+    .stars-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+    }
+     
+    .stars-inner::before {
+      content: "\f005 \f005 \f005 \f005 \f005";
+      color: #f8ce0b;
+    }
+  
+    .post-buttons{
+        width: 37%;
+        padding: 1.9%;
+        background:rgba(245,56,56,255);
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        border: 0px;
+        border-radius: 7px;
+        margin-right:27%;
+        margin-left: 2%;
+    }
+    .post-buttons:hover{
+          opacity: 0.7;
+    }
+    .scale{
+        width: 100%;
+    }
+    .selected{
+        width: 30%;
+        height: 25px;
+    }
+   .icons{
+        display:inline-block;
+        margin: 1%;
+        border-radius: 5px;
+   }
+   .bordertop{
+       border-top: 1px solid lightgrey;
+   }
+   .borderright{
+       border-right: 1px solid lightgrey;
+   }
+  
+   .popup {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* The actual popup */
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      top: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    
+    /* Popup arrow */
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color:  transparent transparent #555 transparent;
+    }
+    
+    /* Toggle this class - hide and show the popup */
+    .popup:hover .popuptext{
+      visibility: visible;
+      -webkit-animation: fadeIn 0.5s;
+      animation: fadeIn 0.5s;
+    }
+  
+    .disabled{
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      top: 125%;
+      left: 50%;
+      margin-left: -80px;
+      cursor: default;
+    }
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }
+  
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      }
+     .circle {
+        height:45px;
+      width:65px;
+      padding-top: 18px;
+      border-radius:50%;
+      background:rgba(243, 243, 243, 0.767);
+    }

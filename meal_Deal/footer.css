@@ -1,0 +1,41 @@
+
+#footer{
+    background-color: #2BB673;
+    padding-bottom: 20px;
+  
+}
+#finnerdiv{
+    display:
+    flex;
+    justify-content: space-between;
+    padding: 20px 250px;
+    line-height: 20px;
+
+}
+.font14{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:#ffffff;
+    line-height: 20px;
+}
+.font14~p{
+    font-size: 12px;
+    color: #EEEEEE;
+    font-family: sans-serif;
+    line-height: 20px;
+
+}
+.blw{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#copyright{
+    font-size: 10px;
+     color: #EEEEEE;
+     font-family: sans-serif;
+    text-align: center;
+
+    line-height: 15px;
+
+}
