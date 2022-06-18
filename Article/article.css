@@ -24,6 +24,9 @@
     text-decoration: none;
     font-weight: normal;
     }
+    .blue:hover{
+        text-decoration: underline;
+    }
     #btmp{
         margin: 20px 0px 0px 0px;
     }
@@ -49,9 +52,14 @@
         color: #2184ff;
 
     }
+    .pgeN p:hover{
+        font-size: 20px;
+    }
     #activep{
         color: black;
+        
     }
+    
     .nxt{
     background-color:  #e2dddd;
     padding: 8px 35px;

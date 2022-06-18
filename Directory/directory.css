@@ -34,6 +34,9 @@
     border-radius: 10px;
     margin-right: 10%;
 }
+#dsbtn a{
+ color: #ffffff;
+}
 #dabtn{
     font-size: 16px;
     font-weight: bold;
@@ -45,46 +48,7 @@
     border-radius: 10px;
 
 }
- /* 4 menu buttons */
- #fmbtn{
-    width: 79%;
-    margin: auto;
-    margin-top: 45px;
- }
- .dm1,.dm2,.dm3,.dm4{
-   font-size:14px ;
-    padding: 10px;
-    /* color: #ffffff; */
-    color: #555555;
-   
-    background-color:#f5f5f5;
-    border: none;
-    border: 1px solid #5555;
-    border-radius: 5px;
-    width: 20%;
 
-
- }
- .dm1,.dm2,.dm3{
-    margin-right: 2%;
- }
- .dm1{
-    color: #ffffff;
-     background-color: #15a759;
-
- }
- .dm2:hover{
-    /* color: #ffffff; */
-    background-color: rgb(226, 221, 221);
- }
- .dm3:hover{
-    /* color: #ffffff; */
-    background-color: rgb(226, 221, 221);
- }
- .dm4:hover{
-    /* color: #ffffff; */
-    background-color: rgb(226, 221, 221);
- }
 
 
  /* content inside directory */

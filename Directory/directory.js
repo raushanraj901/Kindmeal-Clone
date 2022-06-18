@@ -1,8 +1,12 @@
 
 import{footer} from "../footer/footercomponents/footer.js"
 
-document.getElementById("footer").innerHTML=footer()
+document.getElementById("footer").innerHTML=footer();
 
+
+import{submenu} from "../submenu/submenu.js"
+document.getElementById("fmbtn").innerHTML=submenu();
+console.log(submenu())
 
 
 let dContent = document.getElementById("dContent");
@@ -128,6 +132,9 @@ dirArr.forEach((el) => {
   let b1 = document.createElement("button");
 
   b1.innerText = "Visit Website ";
+  b1.addEventListener("click",function(){
+    window.location.href="mealdeal.html"
+  })
   let b2 = document.createElement("button");
   b2.innerText = "|";
   b2.setAttribute("class", "bar");
@@ -138,6 +145,10 @@ dirArr.forEach((el) => {
   b4.setAttribute("class", "bar");
   let b5 = document.createElement("button");
   b5.innerText = "Near by shops ";
+  b5.addEventListener("click",function(){
+   mapcont(el)
+  })
+  
 
   b3.addEventListener("click",function(){
     window.location.href =el.a
@@ -149,17 +160,8 @@ dirArr.forEach((el) => {
   div.append(div1, div2);
   dContent.append(div);
 });
+function mapcont(el){
+  localStorage.setItem("dmapcontent",JSON.stringify(el));
+  window.location.href="foodmap.html";
+}
 
-// let iframe =document.getElementById("gmap_canvas");
-// iframe.src=`https://maps.google.com/maps?q=pune&t=&z=13&ie=UTF8&iwloc=&output=embed`;
-
-// function getlocationWeather(){
-//     navigator.geolocation.getCurrentPosition(success)
-//     function success(position)
-//     {
-//         const latitude =position.coords.latitude;
-//         const longitude =position.coords.longitude;
-//         getData(latitude,longitude)
-//     }
-// }
-// getlocationWeather();

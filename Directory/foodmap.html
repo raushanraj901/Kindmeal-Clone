@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="../Article/article.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
+    <link rel="stylesheet" href="../submenu/submenu.css">
+    <title>Food Map</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Open Sans", serif;
+    }
+     /* foodmenu subbar */
+ .dm4{
+    color: #ffffff;
+     background-color: #15a759;  
+ } 
+ .dm4 a{
+  color: white;
+ }
+ .dm4:hover{
+  background-color: #148147;  
+
+ }
+ /* ************* */
+    #allvideocontent {
+      display: flex;
+
+      gap: 30px;
+      width: 90%;
+
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      /* border: 1px solid grey; */
+      padding-left: 50px;
+    }
+    #vdiv1 {
+      width: 70%;
+      /* border: 1px solid red; */
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      border-radius: 10px;
+      padding-top: 20px;
+      height: 1000px;
+    }
+    #vdiv2 {
+      width: 22%;
+      /* border: 1px solid grey; */
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.2) 0px 3px 6px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    #vdiv2 > h3 {
+      font-weight: normal;
+      color: #444444;
+      margin: 10px;
+    }
+    #vdiv2 div {
+      width: 83%;
+      /* border: 1px solid red; */
+      padding: 5px;
+      margin: auto;
+      text-align: center;
+      font-size: 14px;
+      color: #444444;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    #vdiv2 img {
+      width: 100%;
+      height: 200px;
+      border-radius: 5px;
+    }
+    #mdes {
+      padding: 25px;
+    }
+    #mdes h2 {
+      font-size: 26px;
+      color: #222222;
+      margin-bottom: 12px;
+    }
+    #mdes p {
+      font-size: 14px;
+      color: #444444;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+    #mdes input {
+      border-bottom: none;
+      border-right: none;
+      border-left: none;
+      width: 100%;
+      font-weight: lighter;
+      border-color: #fcfbfb;
+      margin: 5px 0;
+    }
+    #mdes h3 {
+      font-size: 18px;
+      color: #444444;
+      /* background-color: red; */
+      font-weight: normal;
+    }
+    iframe {
+      width: 95%;
+      height: 500px;
+      border: none;
+      margin: 5px 20px;
+    }
+    #direction button {
+      display: inline-block;
+      border: none;
+      font-size: 18px;
+      padding: 10px 35px;
+      border-radius: 5px;
+      color: white;
+      background-color: #15a759;
+      margin-top: 10%;
+    }
+    #direction {
+      width: 30%;
+      margin: auto;
+    }
+    #direction button:hover {
+      background-color: #168349;
+    }
+  </style>
+  <body>
+    <div id="artContent"></div>
+    <div id="fmbtn"></div>
+   
+
+    <div id="allvideocontent">
+      <div id="vdiv1">
+        <div id="mdes"></div>
+        <div id="mimg">
+          <!-- map here -->
+        </div>
+        <div id="direction">
+          <button>Get Direction</button>
+        </div>
+      </div>
+      <div id="vdiv2">
+        <h3>More Yummy articles</h3>
+        <div>
+          <img
+            src="https://www.kindmeal.my/photos/deal/6/617-3503-m.jpg"
+            alt=""
+          />
+          <p>
+            Simple Life Bukit Tinggi <br />
+            shifong
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://www.kindmeal.my/photos/deal/4/467-2796-m.jpg"
+            alt=""
+          />
+          <p>
+            A Delicious KindMoment <br />
+            DebbieChai
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://www.kindmeal.my/photos/deal/7/701-4904-m.jpg"
+            alt=""
+          />
+          <p>
+            Davina Da Vegan <br />
+            DavinaGoh
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://www.kindmeal.my/photos/deal/5/565-4023-m.jpg"
+            alt="gifs.jpg"
+          />
+          <p>tasty food</p>
+        </div>
+        <div>
+          <img
+            src="https://www.kindmeal.my/photos/deal/6/670-4180-m.jpg"
+            alt="gifs.jpg"
+          />
+          <p>giphy.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>
+<script type="module">
+  import { mapCont } from "../Article/Articlecomponents/artcontent.js";
+  document.getElementById("artContent").innerHTML = mapCont();
+
+  import{submenu} from "../submenu/submenu.js"
+document.getElementById("fmbtn").innerHTML=submenu();
+
+  // footbar
+  import { footer } from "../footer/footercomponents/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+
+  let mapcontent = JSON.parse(localStorage.getItem("dmapcontent"));
+  console.log(mapcontent);
+
+  if(mapcontent){
+
+  let div1 = document.createElement("div");
+  div1.setAttribute("class", "ddata");
+
+  let title = document.createElement("h2");
+  title.innerText = mapcontent.dHead;
+  let des = document.createElement("p");
+  des.innerText = mapcontent.dmore;
+  let line = document.createElement("input");
+  line.setAttribute("class", "line");
+  let h3 = document.createElement("h3");
+  h3.innerText = "Address";
+  let address = document.createElement("p");
+  address.innerText = mapcontent.dAdd;
+  let h3p = document.createElement("h3");
+  h3p.innerText = "Phone";
+
+  let phone = document.createElement("p");
+  phone.innerText = mapcontent.dphone;
+
+  let h32 = document.createElement("h3");
+  h32.innerText = "Opening Hours";
+
+  let ohrs = document.createElement("p");
+  ohrs.innerText = mapcontent.dohrs;
+
+  div1.append(title, des, line, h3, address, h3p, phone, h32, ohrs);
+  document.getElementById("mdes").append(div1);
+
+  //   let div2 = document.createElement("div");
+  //   div2.setAttribute("class", "maps");
+
+  let img = document.createElement("iframe");
+  img.src = mapcontent.mapimg;
+  document.getElementById("mimg").append(img);
+
+  let dir = document.getElementById("direction");
+  dir.addEventListener("click", function () {
+    window.location.href = mapcontent.a;
+    console.log("hidsjfods");
+  });
+
+}
+else{
+  let div1 = document.createElement("div");
+  div1.setAttribute("class", "ddata");
+
+  let title = document.createElement("h2");
+  title.innerText ="Alam N-Ion";
+  let des = document.createElement("p");
+  des.innerText = "We serve delicious home-cooked vegetarian meals, crafted with the healthiest ingredients and plenty of love. We also sell natural, handmade clay and wooden Buddhist crafts, health suppleme…";
+  let line = document.createElement("input");
+  line.setAttribute("class", "line");
+  let h3 = document.createElement("h3");
+  h3.innerText = "Address";
+  let address = document.createElement("p");
+  address.innerText =  "15, Jalan 12/144A, Taman Bukit Cheras , 56000 Kuala Lumpur, Wilayah Persekutuan";
+  let h3p = document.createElement("h3");
+  h3p.innerText = "Phone";
+
+  let phone = document.createElement("p");
+  phone.innerText ="019-275 9973";
+
+  let h32 = document.createElement("h3");
+  h32.innerText = "Opening Hours";
+
+  let ohrs = document.createElement("p");
+  ohrs.innerText = "Fri - Wed: 9am - 4pm; Thu: Closed";
+
+  div1.append(title, des, line, h3, address, h3p, phone, h32, ohrs);
+  document.getElementById("mdes").append(div1);
+
+  //   let div2 = document.createElement("div");
+  //   div2.setAttribute("class", "maps");
+
+  let img = document.createElement("iframe");
+  img.src ="https://maps.google.com/maps?q=Taman Miharja&t=&z=13&ie=UTF8&iwloc=&output=embed";
+  document.getElementById("mimg").append(img);
+
+  let dir = document.getElementById("direction");
+  dir.addEventListener("click", function () {
+    window.location.href = "https://maps.google.com/maps?ll=3.123272,101.721954&z=13&t=m&hl=en-GB&gl=US&mapclient=embed&q=Taman%20Miharja%2055200%20Kuala%20Lumpur%20Federal%20Territory%20of%20Kuala%20Lumpur%20Malaysia";
+    console.log("hidsjfods");
+  });
+
+
+
+}
+
+
+
+
+</script>

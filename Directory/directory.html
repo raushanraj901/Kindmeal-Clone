@@ -17,26 +17,28 @@
     <link rel="stylesheet" href="../Directory/directory.css" />
 
     <link rel="stylesheet" href="../footer/footer.css" />
+    <link rel="stylesheet" href="../submenu/submenu.css">
 
     <title>Directory</title>
   </head>
+  <style>
+   
+    .dm1{
+    color: #ffffff;
+     background-color: #15a759;  
+ } 
+ .dm1 a{
+  color: #ffffff;
+ }
+ .dm1:hover{
+  background-color: #148147;  
+
+ }
+ 
+ 
+  </style>
 
   <body>
-    <!-- 
-     <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe
-            width="600"
-            height="500"
-            id="gmap_canvas"
-            
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-          ></iframe
-          > -->
-
     <!-- // top content and some text  -->
     <div id="artContent">
       <div id="alignleft">
@@ -72,7 +74,7 @@
             <option></option>
           </select>
 
-          <button id="dsbtn">Search Shops</button>
+          <button id="dsbtn"><a href="featuredRest.html">Search Shops</a></button>
 
           <button id="dabtn">Add A Shop</button>
         </div>
@@ -81,10 +83,7 @@
 
     <!-- hover buttons -->
     <div id="fmbtn">
-      <button class="dm1">Vegetarian Directory</button>
-      <button class="dm2">Featured Restaurants</button>
-      <button class="dm3">Food Menu</button>
-      <button class="dm4">Food Map</button>
+      <!-- submenu buttons -->
     </div>
 
     <!-- page numbers and next button -->
@@ -124,10 +123,12 @@
           <p>...</p>
           <p>1402</p>
         </div>
-        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+       <div class="nxt"> Next <i class="fa fa-angle-double-right"></i></div>
       </div>
 
     <div id="footer"></div>
   </body>
 </html>
-<script type="module" src="../Directory/directory.js"></script>
+<script type="module" src="../Directory/directory.js">
+  
+</script>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans"
+  />
+  <link rel="stylesheet" href="../Directory/directory.css" />
+  <link rel="stylesheet" href="../Article/article.css" />
+  <link rel="stylesheet" href="../footer/footer.css" />
+  <link rel="stylesheet" href="../submenu/submenu.css">
+    <title>Food Menu </title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+
+}
+ /* foodmenu subbar */
+ .dm3{
+    color: #ffffff;
+     background-color: #15a759;  
+ } 
+ .dm3 a{
+  color: white;
+ }
+ .dm3:hover{
+  background-color: #148147;  
+
+ }
+ /* ************* */
+#foodmenu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:35px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#foodmenu div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 360px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+ 
+}
+#foodmenu img{
+    width: 100%;
+    
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+
+}
+#foodmenu h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    margin: 10px;
+}
+#foodmenu h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+    margin: 10px;
+
+}
+#foodmenu p{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+    margin: 10px;
+
+}
+
+
+</style>
+<body>
+    <div id="artContent">  
+        <!-- artContent -->
+    </div>
+    <div id="fmbtn">
+        <!-- submenu -->
+    </div>
+    <div id="aNumbers">
+        <div class="pgeN">
+          Page:
+          <p id="activep">1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+          <p>...</p>
+          <p>1402</p>
+        </div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+      </div>
+      <div id="foodmenu">
+        <!-- all the content menu -->
+      </div>
+
+
+
+      <div id="footer"></div>
+    
+</body>
+</html>
+<script type="module">
+      import { menucont } from "../Article/Articlecomponents/artcontent.js";
+  document.getElementById("artContent").innerHTML = menucont();
+  
+  import{submenu} from "../submenu/submenu.js"
+document.getElementById("fmbtn").innerHTML=submenu();
+import{footer} from "../footer/footercomponents/footer.js"
+
+document.getElementById("footer").innerHTML=footer();
+
+
+
+
+let foodmenu =[
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9317-m.jpg",
+        name:"Pan Fried Vegan Dumpling (6pcs)",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9319-m.jpg",
+        name:"Spicy Sambal Plantbase Meatball Rice",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9321-m.jpg",
+        name:"Veg Steak Wrap",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9320-m.jpg",
+        name:"Teriyaki Poke Bowl",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9318-m.jpg",
+        name:"Munchies Buns With Fries",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/587-9322-m.jpg",
+        name:"Vegan Meat Loft With Bun (4pcs)",
+        madeBy:"Alice Kitchen by Yishensu",
+        location:"Petaling Jaya, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8697-m.jpg",
+        name:"K09 SWEET POTATOES ROLLS",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8699-m.jpg",
+        name:"K11 ENOKI MUSHROOM",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8680-m.jpg",
+        name:"R02 RU YI RICE",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8689-m.jpg",
+        name:"N24 CHEESE POTATO RAMEN",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8682-m.jpg",
+        name:"R04 AUSPICIOUS RICE",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8664-m.jpg",
+        name:"M38 SCALLOP MUSHROOM",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8649-m.jpg",
+        name:"B03 NANYANG CURRY",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8673-m.jpg",
+        name:"V07 FRIED OKRA",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8669-m.jpg",
+        name:"V03 FRIED CAULIFLOWER",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8701-m.jpg",
+        name:"M40 PANDAN LION'S MANE MUSHROOM",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8691-m.jpg",
+        name:"N19 HERBS YEE MEE SOUP",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    },
+    {
+        img:"https://www.kindmeal.my/photos/item/0/592-8684-m.jpg",
+        name:"R27 PROSPERITY RICE",
+        madeBy:"Midas Cuisine",
+        location:"Banting, Selangor"
+    }
+
+]
+
+
+foodmenu.forEach((el)=>{
+
+    let img =document.createElement("img");
+img.src=el.img;
+img.setAttribute("class","mimg")
+
+let head =document.createElement("h2");
+head.innerText=el.name;
+
+let pos = document.createElement("h3");
+pos.innerText=el.madeBy;
+
+let parag =document.createElement("p");
+parag.innerText=el.location;
+
+let div= document.createElement("div");
+
+div.append(img,head,pos,parag)
+document.getElementById("foodmenu").append(div)
+
+})
+
+
+</script>
