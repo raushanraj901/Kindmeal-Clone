@@ -316,8 +316,23 @@ function offers (){
 
         div.append(img, title, des);
         container.append(div);
+        div.addEventListener("click", function(){
+            if(el.id == 1){
+                window.location.href = "./meal_Deal/meal.html"
+            }
+            else if(el.id == 2){
+                window.location.href = "./Kindmoment Page/kindmoment.html"
+            }
+            else if(el.id == 3){
+                window.location.href = "./Directory/directory.html"
+            }
+            else if(el.id == 4){
+                window.location.href = "./Kindmoment Page/kindmoment.html"
+            }
+        })
     });
 }
 offers();
+
 
 

@@ -1,6 +1,3 @@
-*{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
 a{
     font-size: 20px;
     color: black;
@@ -53,7 +50,22 @@ h4{
     /* font-weight:1px solid black; */
   }
 
-input{
+  
+
+#email{
+    height:50px;
+    width:500px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-color: beige;
+     margin-bottom:40px;
+     margin-left: 70px;
+      /* row-gap:50px ;  */
+     border-radius:5px;
+    
+    }
+
+#password{
     border-color: beige;
     font-size: 20px;
     height:50px;
@@ -65,18 +77,21 @@ input{
 
 }
 
+
+
+
 #login_btn{
    
-    height:50px;
+    height:70px;
     width:300px;
     background-color:rgb(52, 152, 52);
     margin-top:5px;
     margin-left:170px;
-    margin-bottom:50px;
-    font-size:30px;
-    border-radius:10px;
-    color:white;
-    border-bottom: 5px;
+     margin-bottom:50px;
+     font-size:30px;
+     border-radius:10px;
+     color:white;
+     border-bottom: 5px;
      /* justify-content:center;
      align-items:center; */
 
@@ -85,11 +100,11 @@ input{
 
 #fb_login_btn{
    
-    height:50px;
+    height:70px;
     width:400px;
     margin-left:130px;
     background-color:rgb(43, 113, 211);
-    margin-top:50px;
+    margin-top:20px;
      margin-bottom:40px;
      font-size:30px;
      border-radius:10px;

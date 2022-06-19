@@ -16,6 +16,7 @@
 }
 #one{
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* height:150%; */
     height:100%;
     width:100;
@@ -23,6 +24,11 @@
     height:150%;
     width:100%;
 >>>>>>> 3b1c466b54b4480cfa88866c5ba82788170c70b1
+=======
+    /* height:150%; */
+    height:100%;
+    width:100;
+>>>>>>> d21f3f39232161a72b1e5386a7f32bbceb84928d
     justify-content:center;
     align-items:center;
     border:1px solid rgb(60, 54, 54);
@@ -37,6 +43,7 @@
 
 #two{
 <<<<<<< HEAD
+<<<<<<< HEAD
     height:100%;
     border: 1px solid red;
     width:100;
@@ -44,6 +51,11 @@
     height:150%;
     width:100%;
 >>>>>>> 3b1c466b54b4480cfa88866c5ba82788170c70b1
+=======
+    height:100%;
+    border: 1px solid red;
+    width:100;
+>>>>>>> d21f3f39232161a72b1e5386a7f32bbceb84928d
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -59,7 +71,7 @@
 
 #three{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -73,7 +85,7 @@
 }
 #four{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -87,7 +99,7 @@
 }
 #five{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -127,12 +139,17 @@ h3>a{
     padding: 30px;
     /* border:1px solid black; */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* margin-top:-107%; */
     /* margin-bottom:40px;
 =======
     margin-top:-115%;
     margin-bottom:40px;
 >>>>>>> 3b1c466b54b4480cfa88866c5ba82788170c70b1
+=======
+    /* margin-top:-107%; */
+    /* margin-bottom:40px;
+>>>>>>> d21f3f39232161a72b1e5386a7f32bbceb84928d
     /* padding:40px; */
     /* margin-left: 650px;
     margin-right: 300px;
