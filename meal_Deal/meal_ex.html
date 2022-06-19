@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="meal.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style type="text/css" >
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar"></div>
+    <div id="categoryItems"></div>
+
+   
+       
+    <div id="placeholder_ex">
+        
+</div>
+<div class="extend shadow" style="margin-top: 10px;cursor: pointer;">
+    <img class="shadow" style="width:100%;" src="https://www.kindmeal.my/images/banner_recipe.jpg" alt="">
+  
+</div>
+   
+
+    <!-- footer -->
+    <div id="footer">
+       
+    </div>
+
+  
+        
+</body>
+</html>
+
+<script src="meal_ex.js"></script>
+
+<script type="module">
+    import { navbar, categoryItems } from "./navbar.js";
+    document.getElementById("navbar").innerHTML = navbar();
+    document.getElementById("categoryItems").innerHTML = categoryItems();
+    
+     import {footer} from "./footer.js";
+     document.getElementById("footer").innerHTML=footer();
+    
+    </script>
