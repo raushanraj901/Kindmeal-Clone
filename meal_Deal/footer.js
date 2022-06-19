@@ -1,6 +1,4 @@
-
-
-let footer = () =>{
+let footer=()=>{
     return ` 
     <div id="finnerdiv">
     <div>
@@ -66,6 +64,7 @@ let footer = () =>{
 <div id="copyright">  <p>Copyright © KindMeal.my, 2014 - 2022. All rights reserved.
     </p>
 <p>This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products or alcohol, please view individual listings for details.</p></div>
-`
+`;
 }
-export {footer};
+
+export {footer} ;

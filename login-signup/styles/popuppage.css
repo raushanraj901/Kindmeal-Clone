@@ -1,0 +1,110 @@
+#main-container{
+    width:800px;
+    height: 800px;
+    margin-left: 500px;
+    margin-top:100px;
+    /* border: crimson solid; */
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    
+ }
+ #logo{
+     width:500px;
+     height: 200px;
+     border: white solid;
+     margin-left: 16%;
+ }
+ #logo>img{
+     margin-left: 15%;
+     margin-top: 2%;
+    
+ }
+ #logo>h1,p{
+     text-align: center;
+     color: rgb(112, 112, 112);
+ }
+ #container-1{
+        width:700px;
+     height: 220px;
+     margin-top: 10px;
+     /* border-width: thin; */
+     /* border: rgb(51, 50, 50) solid; */
+     border: 1px solid;
+     border-radius: 15px;
+    margin-left: 45px ;
+    border:1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+ }
+ #container-2{
+     width:700px;
+  height: 220px;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-top: 10px;
+  border:1px solid gray;
+  /* border: rgb(51, 50, 50) solid; */
+  margin-left: 45px ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+ }
+ #container-1>a{
+     margin-top: 30px;
+     margin-left: 10px;
+     float: left;
+ }
+ #container-2>a{
+     margin-top: 20px;
+     margin-left: 10px;
+     float: left;
+ }
+ #container-1>div{
+     margin-top: 20px;
+     margin-left: 100px;
+     font-size: 20;
+     color: rgb(66, 66, 66);
+     width:250px;
+     height: 180px;
+     border: white solid;
+     float: left;
+ }
+ #container-2>div{
+     margin-top: 20px;
+     margin-left: 100px;
+     font-size: 20;
+     width:280px;
+     color: rgb(66, 66, 66);
+     height: 180px;
+     text-align:left;
+     /* border: white solid; */
+     /* border-width: thin; */
+     float: left;
+ }
+ #container-3{
+     width: 700px;
+     height: 50px;
+     /* border: black; */
+     float: left;
+     margin-top: 50px;
+     margin-left: 7px;
+ 
+ }
+
+ #anchor-1{
+    margin-left:40px;
+    font-size: 25px;
+    color: rgb(68, 61, 61);
+    font-weight: 200;
+}
+
+ 
+#anchor-2{
+    margin-left:400px;
+    font-size: 25px;
+    color: rgb(70, 61, 61);
+    font-weight: 200;
+}
+ h3{
+     color: rgb(66, 66, 66);
+ }
+
+ 
