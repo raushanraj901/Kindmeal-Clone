@@ -62,8 +62,15 @@
     
     .nxt{
     background-color:  #e2dddd;
-    padding: 8px 35px;
+    padding: 2px 20px;
     border-radius: 8px;
+    }
+    .nx{
+        font-size: 10px;
+        color: black;
+        text-decoration: none;
+        background: none;
+        margin-left: -10px;
     }
 
     /* article content and div */
