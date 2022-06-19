@@ -6,20 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./hot2.css">
-  
   <link rel="stylesheet" href="hot.css">
-
+  <link rel="stylesheet" href="../footer/footer.css">
+  
   <script src="https://kit.fontawesome.com/39dce68ee5.js" crossorigin="anonymous"></script>
   <title>Document</title>
 
 </head>
 
-
-
 <style>
   #btn {
-
-
     padding: 7px;
     color: white;
     background-color: red;
@@ -27,7 +23,6 @@
   }
 
   #parts {
-
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto;
@@ -86,16 +81,19 @@
     cursor: pointer;
     margin-left: 60px;
  }
-
+ #parts>div a{
+  text-decoration: none;
+  color: black;
+ }
+ #parts>div{
+  font-size: 20px;
+ }
 </style>
-
+<link rel="stylesheet" href="../navbar.css">
 <body>
-
-
-
-
+  <div id="navbar"></div>
+  <div id="items_category"></div>
   <div id="detail">
-
     <h2>All Categories<span style="color:gray;margin-left: 7px;">|</span> <span
         style="color:gray;margin-left: 9px;">Hot Picks</span> </h2>
     <br>
@@ -105,12 +103,10 @@
     <p>Click into a featured deal to instantly obtain free coupons, or read more on our members' delicious recommendations.</p>
     <br><br><br>
   </div>
-
-
   <br><br>
   <div id="parts">
-    <div>All Categories</div>
-    <div>Pasta</div>
+    <div><a href="hot.html"> All Categories</a></div>
+    <div><a href="hot.html"> Pasta</a></div>
     <div>Burger</div>
     <div>Breakfast</div>
     <div>Salad</div>
@@ -126,73 +122,28 @@
 
   </div>
    <div id="main">
-
-
-
-
-
     <div id="bars">
 
-        <div><h2>Pasta Fiesta</h2></div>
+        <div><h2><a href="../Kindmoment Page/kindmoment.html"> Pasta Fiesta </a></h2></div>
         <div id="linne" style="display:flex;">
-            <div>View Pasta Deals</div>
+            <div><a href="../meal_Deal/meal.html"></a> View Pasta Deals</a></div>
             <div>View All Pasta Hot Picks</div>
         </div>
     </div>
-  
-
 <div id="container">
-  
-  
-  
-
-
-  
-  
-
-
-
-
-
-
 </div>
-   
-
-
- 
 <b><hr></b>
- <br>
-
+<br>
 <div id="articles"> 
-
-  
-
-
 </div>
 <br>
-
-<button id="lastbtn">View All Pastta Fiesta Hot Picks >></button>
-
-
- <br><br>
-
-
-   </div>
-
-  
-   
+<button  id="lastbtn"><a href="../index.html"></a> View All Pastta Fiesta Hot Picks >></button>
+<br><br>
+  </div> 
  <br>
-
-
-
-
- 
+ <footer id="footer">
+</footer>
 </body>
-
 </html>
-
-
-
-<script src="hotty.js">
-
-</script>
+<script src="hotty.js"></script>
+<script src="../index.js" type="module"></script>
