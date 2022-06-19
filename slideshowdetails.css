@@ -17,8 +17,8 @@
 
 #slideLogo>img{
     position: absolute;
-    bottom: 50px;
-    left: 100px;
+    bottom: 300px;
+    left: 90px;
     width: 200px;
     height: 200px;
     border: 1px solid #dddddd;
@@ -30,7 +30,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #292929;
-    bottom: 80px;
+    bottom: 300px;
     left: 330px;
 }
 

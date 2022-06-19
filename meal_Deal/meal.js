@@ -636,5 +636,5 @@ function getLocation(num){
 }
 
 function newPage(i){
-    location.href = `http://127.0.0.1:5500/meal_ex.html?q=${i}`;
+    location.href = `./meal_ex.html?q=${i}`;
 }
