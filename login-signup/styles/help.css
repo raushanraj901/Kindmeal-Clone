@@ -10,7 +10,7 @@
 }
 #one{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(60, 54, 54);
@@ -25,7 +25,7 @@
 
 #two{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -41,7 +41,7 @@
 
 #three{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -55,7 +55,7 @@
 }
 #four{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -69,7 +69,7 @@
 }
 #five{
     height:150%;
-    width:100%;
+    width:100;
     justify-content:center;
     align-items:center;
     border:1px solid rgb(75, 68, 68);
@@ -107,7 +107,7 @@ h3>a{
     height:100%;
     width:50%;
     /* border:1px solid black; */
-    margin-top:-115%;
+    margin-top:-107%;
     margin-bottom:40px;
     /* padding:40px; */
     margin-left: 650px;
