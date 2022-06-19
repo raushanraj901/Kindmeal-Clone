@@ -18,7 +18,7 @@ let navbar = () =>{
 
 let categoryItems = () =>{
     return `<ul id="items_category_list">
-    <li><a class="active" href="../index.html">Home</a></li>
+    <li><a href="../index.html">Home</a></li>
     <li><a href="../meal_deal/meal.html">Meal Deals</a></li>
     <li><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
     <li><a href="">Hot Picks</a></li>
