@@ -1,3 +1,8 @@
+import { navbar , categoryItems} from "../navbar.js";
+let n = document.getElementById("navbar");
+n.innerHTML = navbar();
+
+
 
 import{footer} from "../footer/footercomponents/footer.js"
 
@@ -103,7 +108,7 @@ dirArr.forEach((el) => {
   let des = document.createElement("p");
   des.innerText = el.dmore + showmore;
   let line = document.createElement("input");
-  line.setAttribute("class", "line");
+  line.setAttribute("class", "line1");
   let h3 = document.createElement("h3");
   h3.innerText = "Address";
   let address = document.createElement("p");
@@ -133,7 +138,7 @@ dirArr.forEach((el) => {
 
   b1.innerText = "Visit Website ";
   b1.addEventListener("click",function(){
-    window.location.href="mealdeal.html"
+    window.location.href="../meal_Deal/meal.html"
   })
   let b2 = document.createElement("button");
   b2.innerText = "|";

@@ -5,27 +5,28 @@ let footer = () =>{
     <div id="finnerdiv">
     <div>
         <p class="font14">General</p >
-       <p> Home</p>
-       <p> Sign Up</p>
-       <p> Businesses / Restaurateurs</p>
+       <p><a href="">Home</a></p>
+       <p><a href="../login-signup/signup.html">Sign Up</a> </p>
+       <p><a href="../Directory/featuredRest.html"> Businesses / Restaurateurs</a> </p>
        <p> Advertising</p>
        <p> About KindMeal.my</p>
-       <p> Help & FAQ</p>
+       <p><a href="../login-signup/help.html">Help & FAQ</a> </p>
        <p> Terms & Conditions</p>
        <p> Inspiring Partners</p>
        <p> Lifestyle Ambassadors</p>
        <p> Jobs & Careers</p>
-       <p> Contact U</p>
+       <p> Contact Us</p>
        </div>
        <div>
+       
     <p class="font14">Features</p >
       <p>  Meat-Free Deals</p>
       <p>  Kind Moments</p>
       <p>  Meat-Free Recipes</p>
       <p>  Member Recommendations</p>
      <p>   Featured Restaurants</p>
-      <p>  Vegetarian & Vegan Directory</p>
-       <p> Food Map</p>
+      <p><a href="../Directory/directory.html">  Vegetarian & Vegan Directory</a></p>
+       <p> <a href="../Directory/foodmap.html">Food Map</a></p>
         <p>Become A Superhero</p>
        <p> Vegan News & Vegetarian Articles</p>
        <p> Latest Comments</p>
@@ -33,7 +34,7 @@ let footer = () =>{
     </div>
     <div><p class="font14">Social Media</p >
     <p>KindMeal Widget</p>
-    <p>Facebook</p>
+    <p><a href="../login-signup/fblogin.html">Facebook</a></p>
     <p>Twitter</p>
     <p>Instagram</p>
     </div>

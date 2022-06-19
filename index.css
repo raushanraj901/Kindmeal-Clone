@@ -221,7 +221,11 @@ padding: 10px;
 }
 
 /* join btn */
-#join_btn > div{
+
+#join_btn>a{
+    text-decoration: none;
+}
+#join_btn div{
     width: 30%;
     margin: auto;
     margin-top: 30px;
