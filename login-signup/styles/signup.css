@@ -4,11 +4,11 @@
 
 #vertical_div-1{
     height:100%;
-    width: 300px;
+    width: 20%;
     /* border:1px solid black; */
-    margin-top:100px;
-    margin-bottom:40px;
-    margin-left:290px;
+    /* margin-top:100px;
+    /* margin-bottom:40px; */
+    margin-left:100px;
     margin-right: 60px;
     
 }
@@ -45,7 +45,7 @@
 
 #three{
     height:150%;
-    width:100;
+    width:100%;
     /* justify-content:center;
     align-items:center; */
     border:1px solid rgb(75, 68, 68);
@@ -64,21 +64,27 @@ a{
     color: rgb(83, 78, 78);
     font-size: 20px;
 }
+#flexbox{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
 #vertical_div-2{
   
-    height:180%;
-    width:48%;
+    height:auto;
+    width:70%;
+    padding: 20px;
     /* border:1px solid black; */
-    margin-top:-67%;
-    margin-bottom:40px;
+    /* /* margin-top:-67%; */
+    /* margin:40px; */
     /* padding:40px; */
-    margin-left: 650px;
+    /* margin-left: 600px;
     margin-right: 300px;
     padding-right:60px;
     padding-left:60px;
     padding-top:100px;
-    padding-bottom:60px;
+    padding-bottom:60px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 
 }
@@ -264,7 +270,9 @@ h4{
     border: 1px solid rgb(169, 35, 35);
 }
 
-
+body{
+    padding-bottom: 50px;
+}
 
 /* 
 #terms{
@@ -306,7 +314,6 @@ h5{
 h2{
     justify-content: center;
 }
-
 
 
 
