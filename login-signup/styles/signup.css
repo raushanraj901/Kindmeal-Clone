@@ -70,7 +70,7 @@ a{
     height:180%;
     width:48%;
     /* border:1px solid black; */
-    margin-top:-55%;
+    margin-top:-57%;
     margin-bottom:40px;
     /* padding:40px; */
     margin-left: 650px;
@@ -87,9 +87,6 @@ h1{
     margin-top: -12px;
 
 }
-
-
-
 h1>a{
 
     color: rgb(17, 36, 208);
@@ -206,23 +203,9 @@ h4{
     border-radius: 5px;
     border:1px solid rgb(95, 87, 87);
 }
-
-#Photo{
-    margin-left: 100px;
-    /* height:35px;
-    width:150px;
-    font-size: 17px;
-    margin-left: 100px;
-    color:rgb(41, 36, 36);
-    border-radius: 5px;
-    background-color: rgb(171, 161, 161);
-    border: 1px solid rgb(44, 39, 39); */
+img{
+    height: 95%;
 }
-
-/* 
-#gender{
-    margin-left: 150px;
-} */
 #Male{
      
     width: 20px; 
