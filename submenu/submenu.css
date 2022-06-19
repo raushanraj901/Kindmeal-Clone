@@ -1,0 +1,43 @@
+ /* 4 menu buttons */
+ #fmbtn{
+   width: 79%;
+   margin: auto;
+   margin-top: 45px;
+ }
+ 
+ .dm1,.dm2,.dm3,.dm4{
+   font-size:14px ;
+    padding: 10px;
+    /* color: #ffffff; */
+    color: #555555;
+   
+    background-color:#f5f5f5;
+    border: none;
+    border: 1px solid #5555;
+    border-radius: 5px;
+    width: 20%;
+ }
+ a{
+   text-decoration: none;
+ 
+ }
+ .dm1,.dm2,.dm3{
+    margin-right: 2%;
+ }
+ 
+ .dm1:hover{
+   /* color: #ffffff; */
+   background-color: rgb(226, 221, 221);
+}
+ .dm2:hover{
+    /* color: #ffffff; */
+    background-color: rgb(226, 221, 221);
+ }
+ .dm3:hover{
+    /* color: #ffffff; */
+    background-color: rgb(226, 221, 221);
+ }
+ .dm4:hover{
+    /* color: #ffffff; */
+    background-color: rgb(226, 221, 221);
+ }

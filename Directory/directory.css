@@ -1,0 +1,122 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Open Sans', serif;
+
+}
+#alignleft>p:nth-child(3){
+    margin-bottom: 20px;
+}
+
+.dsinput{
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid rgba(230, 222, 222, 0.933);
+    padding:0 20px;
+    margin-right: 10%;
+    
+}
+#Dshops{
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid rgba(230, 222, 222, 0.933);
+    padding:0 20px;
+    color: grey;
+    margin-right: 10%;
+}
+#dsbtn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f53838;
+    border: none;
+    font-family: 'Open Sans', serif;
+    padding: 8px 35px;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+#dsbtn a{
+ color: #ffffff;
+}
+#dabtn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #04be5a;
+    border: none;
+    font-family: 'Open Sans', serif;
+    padding: 8px 45px;
+    border-radius: 10px;
+
+}
+
+
+
+ /* content inside directory */
+ #dContent{
+    width:80%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:45px;
+margin: auto;
+font-weight: normal;
+
+
+ }
+ #dContent>div{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    
+ }
+ #dContent h2{
+   font-size: 26px;
+   
+   margin-bottom: 10px;
+ }
+ #dContent p{
+   font-size: 14px;
+   margin: 0 0 20px;
+   color: #444444;
+ }
+
+
+ .line{
+   border:1px solid rgb(194, 189, 189);
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+   width: 100%;
+ 
+ }
+ #dContent h3{
+   color: #6b6b6b;
+
+ }
+ .maps iframe{
+   border: none;
+   border-top-left-radius: 10px;
+   width: 100%;
+   height: 200px;
+ }
+
+ .bar{
+   color: cornflowerblue;
+   border: none;
+   
+ }
+ #dContent button{
+   color: #2184FF;
+   font-size: 18px;
+   background-color: white;
+   border: none;
+   margin: 10px 10px;
+  
+ }
+ #dContent button:hover{
+  text-decoration: underline;
+ }
+
+ /* maps div2 */
+

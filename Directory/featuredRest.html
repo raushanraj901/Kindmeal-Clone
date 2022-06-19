@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="../Directory/directory.css" />
+    <link rel="stylesheet" href="../Article/article.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
+    <link rel="stylesheet" href="../submenu/submenu.css">
+    <title>Featured Restaurants</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+
+}
+/* submenu */
+.dm2{
+    color: #ffffff;
+     background-color: #15a759;  
+ } 
+ .dm2 a{
+  color: white;
+ }
+ .dm2:hover{
+  background-color: #148147;  
+
+ }
+ /* ******************* */
+
+    #fContent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        width: 80%;
+        margin: auto;
+        /* margin-top: 50px; */
+        
+    }
+   
+    #fContent img{
+        width: 100%;
+        height: 250px;
+        border-top-left-radius:10px ;
+        border-top-right-radius:10px;
+    }
+    #fContent h2{
+        font-size: 13px;
+        color:grey;
+        font-weight: 500;
+        margin-top: 3%;
+        margin: 3%;
+    }
+    #fContent p{
+        font-size: 14px;
+        color: #444444;
+        font-weight: normal;
+        margin: 3%;
+    }
+    .fbtn{
+        margin-left: 3%;
+        font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f53838;
+    border: none;
+    font-family: 'Open Sans', serif;
+    padding: 8px 35px;
+    border-radius: 5px;
+    
+    }
+    #fContent div{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding-bottom: 4%;
+        border-radius: 10px;
+
+    }
+</style>
+<body>
+    <div id="artContent">  
+        <!-- artContent -->
+    </div>
+    <div id="fmbtn">
+        <!-- submenu -->
+    </div>
+    <div id="aNumbers">
+        <div class="pgeN">
+          Page:
+          <p id="activep">1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+          <p>...</p>
+          <p>1402</p>
+        </div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+      </div>
+      <!-- <div id="dContent"></div> -->
+    
+    <div id="fContent">
+        <!-- restaurants -->
+    </div>
+    <div id="aNumbers">
+        <div class="pgeN">
+          Page:
+          <p id="activep">1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+          <p>...</p>
+          <p>1402</p>
+        </div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+      </div>
+      <div id="footer"></div>
+    
+</body>
+</html>
+<script type="module">
+
+       import { featureR } from "../Article/Articlecomponents/artcontent.js";
+  document.getElementById("artContent").innerHTML = featureR();
+  console.log(featureR())
+
+
+
+  
+import{submenu} from "../submenu/submenu.js"
+document.getElementById("fmbtn").innerHTML=submenu();
+console.log(submenu())
+
+let featuredArr = [
+    {
+        image:"https://www.kindmeal.my/photos/shop/6/611-cm.jpg",
+        title:"Balakong, Selangor",
+        pos:"Eat Hami Cafe",
+        para:"Eathami is an healthier option café."
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/1/126-cm.jpg",
+        title:"Kuala Lumpur & 1 Branch",
+        pos:"Purple Cane Tea Cuisine",
+        para:"Purple Cane Tea Cuisine is uniquely prepared, infusing tea in every dish to bring out the natural aroma and flavor of fo.."
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/5/514-cm.jpg",
+        title:"Petaling Jaya, Selangor",
+        pos:"Veggiecious Thai cuisine",
+        para:"Veggielicious, an authentic Thai-vegan fusion cuisine that encompasses exceptional taste, offering the perfect dining ex.."
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/5/520-cm.jpg",
+        title:"Kuala Lumpur, Wilayah Persekutuan",
+        pos:"Tea+Artan Tea Bar",
+        para:"Tea+ indulges you with the first artisan tea bar experience in Malaysia. We are here to revive the forgotten culture, t.."
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/5/514-cm.jpg",
+        title:"Petaling Jaya, Selangor",
+        pos:"Veggielicious Thai Cuisine",
+        para:"Veggielicious, an authentic Thai-vegan fusion cuisine that encompasses exceptional taste, offering the perfect dining ex.."
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/6/604-cm.jpg",
+        title:"Cheras, Selangor",
+        pos:"Hainan Village",
+        para:`Recognized as the "First Hainanese Vegeterian Kopitiam in Malaysia” by the Malaysia Book of Records, Hainan Village stri..`
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/4/498-cm.jpg",
+        title:"Honest Bakery Cafe",
+        pos:"Hainan Village",
+        para:`Honest Bakery Cafe is a local cafe in Subang Jaya that serves and promotes meat-free meals to encourage vegetarianism. ..`
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/5/565-cm.jpg",
+        title:"Kuala Lumpur, Wilayah Persekutuan",
+        pos:"Berjaya Cafe",
+        para:`Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomi..`
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/4/493-cm.jpg",
+        title:"Kuala Lumpur, Wilayah Persekutuan",
+        pos:"Love Earth Cafe",
+        para:`Love Earth Cafe is established since 2010, promoting the love of our planet earth and environment through a delicious va..`
+    },
+    {
+        image:"https://www.kindmeal.my/photos/shop/4/405-cm.jpg",
+        title:"Petaling Jaya, Selangor",
+        pos:"Yishenu",
+        para:`With beginnings in Ipoh and Kampar as manufacturers and suppliers of processed vegetarian food, Yishensu was known as Yi..`
+    },
+   
+]
+featuredArr.forEach((el)=>{
+
+    let img =document.createElement("img");
+img.src=el.image;
+img.setAttribute("class","fimg")
+let head =document.createElement("h2");
+head.innerText=el.title;
+let pos = document.createElement("h3");
+pos.innerText=el.pos;
+let parag =document.createElement("p");
+parag.innerText=el.para;
+let div= document.createElement("div");
+let fbtn = document.createElement("button")
+fbtn.setAttribute("class","fbtn");
+fbtn.innerText="View Shop"
+div.append(img,head,parag,fbtn)
+document.getElementById("fContent").append(div)
+
+})
+
+import{footer} from "../footer/footercomponents/footer.js"
+
+document.getElementById("footer").innerHTML=footer();
+
+
+
+</script>
