@@ -145,12 +145,14 @@ a{
 #maindiv{
     display: flex;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 #vertical_div-2 h1{
     font-size: 30px;
     color: #333333;
     font-weight: normal;
 }
+
 #vertical_div-2 h2{
     font-size: 22px;
     color: #333333;
@@ -169,7 +171,7 @@ a{
 
 }
 #vertical_div-1 div{
-    height:150px;
+    height:180px;
     border: 1px solid rgb(197, 190, 190);
 }
 
