@@ -1,9 +1,8 @@
-// import { navbar, categoryItems } from "./navbar.js";
-// document.getElementById("navbar").innerHTML = navbar();
-// document.getElementById("categoryItems").innerHTML = categoryItems();
-
-// import {footer} from "./footer.js";
-// document.getElementById("footer").innerHTML=footer();
+// import { navbar , categoryItems} from "./navbar.js";
+// let n = document.getElementById("navbar");
+// let cItems = document.getElementById("items_category");
+// cItems.innerHTML = categoryItems();
+// n.innerHTML = navbar();
 
 
 var posts = document.getElementById('posts');
