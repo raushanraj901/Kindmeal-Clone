@@ -21,7 +21,7 @@ let categoryItems = () =>{
     <li><a href="../index.html">Home</a></li>
     <li><a href="../meal_deal/meal.html">Meal Deals</a></li>
     <li><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
-    <li><a href="">Hot Picks</a></li>
+    <li><a href="../Hot Pics Page/hot.html">Hot Picks</a></li>
     <li><a href="../Recipe Page/recipes.html">Recipes</a></li>
     <li><a href="../Directory/directory.html">Directory</a></li>
     <li><a href="../Article/article.html">Articles</a></li>
