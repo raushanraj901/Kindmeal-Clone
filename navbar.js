@@ -10,22 +10,22 @@ let navbar = () =>{
 <div class="nav_login_signup">
     <p>Login</p>
     <button id="nav_social_facebook_button" class="nav_social_button">Facebook</button>
-    <button id="nav_social_twitter_button" class="nav_social_button">Email</button>
+    <button id="nav_social_twitter_button" class="nav_social_button"><a id= "signin"href="../login-signup/login.html">Email</a></button>
     <p class="line">|</p>
-    <a href="">Sign Up</a>
+    <a href="../login-signup/signup.html">Sign Up</a>
 </div>`;
 }
 
 let categoryItems = () =>{
     return `<ul id="items_category_list">
-    <li><a class="active" href="./index.html">Home</a></li>
+    <li><a class="active" href="../index.html">Home</a></li>
     <li><a href="../meal_deal/meal.html">Meal Deals</a></li>
-    <li><a href="">KindMoments</a></li>
+    <li><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
     <li><a href="">Hot Picks</a></li>
-    <li><a href="">Recipes</a></li>
-    <li><a href="./Directory/directory.html">Directory</a></li>
-    <li><a href="./Article/article.html">Articles</a></li>
-    <li><a href="">Help</a></li>
+    <li><a href="../Recipe Page/recipes.html">Recipes</a></li>
+    <li><a href="../Directory/directory.html">Directory</a></li>
+    <li><a href="../Article/article.html">Articles</a></li>
+    <li><a href="../login-signup/help.html">Help</a></li>
 </ul>`
 }
 

@@ -10,6 +10,13 @@
     padding: 8px 20px 8px 20px;
     
 }
+#signin{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: small;
+    color: white;
+    padding: 0px;
+}
 
 .nav_logo{
     margin-left: 60px;

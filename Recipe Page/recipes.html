@@ -6,20 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./recipe2.css">
-  
   <link rel="stylesheet" href="recipe.css">
-
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="../navbar.css">
+  <link rel="stylesheet" href="../footer/footer.css">
   <script src="https://kit.fontawesome.com/39dce68ee5.js" crossorigin="anonymous"></script>
   <title>Document</title>
-
 </head>
-
-
-
 <style>
   #btn {
-
-
     padding: 7px;
     color: white;
     background-color: red;
@@ -27,18 +22,15 @@
   }
 
   #parts {
-
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     gap: 11px 11px;
     width: 81%;
     margin: auto;
-
   }
 
   #parts>div {
-
     text-align: center;
     /* border: 1px solid black; */
     height: auto;
@@ -48,15 +40,12 @@
     font-size: 14px;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-
   }
 
   #parts>div:first-child {
     background-color: #2bb673;
     color: white;
-
   }
-
   #parts>div:hover {
     /* background-color:#666666; */
     background-color: azure;
@@ -65,20 +54,8 @@
 </style>
 
 <body>
-  <nav id="navbar">
-
-
-  </nav>
-  <div id="category">
-
-
-  </div>
-
-
-
-
-
-
+  <div id="navbar"></div>
+  <div id="items_category"></div>
   <div id="detail">
 
     <h2>Food & Drinks <span style="color:gray;margin-left: 7px;">|</span> <span
@@ -89,7 +66,6 @@
       masterpiece!</p>
     <br>
     <p>Transform into a master chef now.</p>
-
     <br>
     <input type="text" placeholder="Search Recipe or User Name">
 
@@ -108,12 +84,9 @@
       <option value="">Soups</option>
     </select>
     <button id="btn">Search Recipes</button>
-
     <button id="btn1">Search My Recipe</button>
     <br><br><br>
   </div>
-
-
   <br><br>
   <div id="parts">
     <div>All Categories</div>
@@ -128,7 +101,6 @@
     <div>Salads</div>
     <div>Side Dishes</div>
     <div>Soups</div>
-
   </div>
 
   <div id="page">
@@ -142,33 +114,15 @@
     <div>7</div>
     <div>8</div>
     <div>9</div>
-
-
   </div>
-
-
-
-
  <div id="container">
-
  </div>
-
-
-
-
  <br>
-
  <br>
-
-
-
- 
+ <footer id="footer">
+</footer>
 </body>
-
 </html>
 
-
-
-<script src="recipedata.js">
-
-</script>
+<script src="recipedata.js"></script>
+<script src="../index.js" type="module"></script>

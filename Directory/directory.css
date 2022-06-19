@@ -48,31 +48,24 @@
     border-radius: 10px;
 
 }
-
-
-
  /* content inside directory */
  #dContent{
     width:80%;
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap:45px;
-margin: auto;
-font-weight: normal;
-
-
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:45px;
+    margin: auto;
+    font-weight: normal;
  }
  #dContent>div{
     border: 1px solid rgb(231, 227, 227);
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
  }
  #dContent h2{
    font-size: 26px;
-   
    margin-bottom: 10px;
  }
  #dContent p{
@@ -80,15 +73,12 @@ font-weight: normal;
    margin: 0 0 20px;
    color: #444444;
  }
-
-
  .line{
    border:1px solid rgb(194, 189, 189);
    border-bottom: none;
    border-left: none;
    border-right: none;
    width: 100%;
- 
  }
  #dContent h3{
    color: #6b6b6b;
