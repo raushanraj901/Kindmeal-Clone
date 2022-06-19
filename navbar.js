@@ -12,7 +12,7 @@ let navbar = () =>{
     <button onclick="https://www.facebook.com/KindMeal.my"; id="nav_social_facebook_button" class="nav_social_button">Facebook</button>
     <button id="nav_social_twitter_button" class="nav_social_button"><a id= "signin"href="../login-signup/login.html">Email</a></button>
     <p class="line">|</p>
-    <a href="../login-signup/signup.html">Sign Up</a>
+    <a href="../login-signup/popuppage.html">Sign Up</a>
 </div>`;
 }
 
