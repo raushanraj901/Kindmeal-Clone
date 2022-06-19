@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./recipe2.css">
+  
+  <link rel="stylesheet" href="recipe.css">
+
+  <script src="https://kit.fontawesome.com/39dce68ee5.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+
+</head>
+
+
+
+<style>
+  #btn {
+
+
+    padding: 7px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  }
+
+  #parts {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 11px 11px;
+    width: 81%;
+    margin: auto;
+
+  }
+
+  #parts>div {
+
+    text-align: center;
+    /* border: 1px solid black; */
+    height: auto;
+    width: 152px;
+    padding: 11px 10px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  }
+
+  #parts>div:first-child {
+    background-color: #2bb673;
+    color: white;
+
+  }
+
+  #parts>div:hover {
+    /* background-color:#666666; */
+    background-color: azure;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <nav id="navbar">
+
+
+  </nav>
+  <div id="category">
+
+
+  </div>
+
+
+
+
+
+
+  <div id="detail">
+
+    <h2>Food & Drinks <span style="color:gray;margin-left: 7px;">|</span> <span
+        style="color:gray;margin-left: 9px;">Yummy Meat-Free Recipes</span> </h2>
+    <br>
+    <br>
+    <p>Want to craft your own creative meat-free meals? Get inspiration from other food lovers, or share your own
+      masterpiece!</p>
+    <br>
+    <p>Transform into a master chef now.</p>
+
+    <br>
+    <input type="text" placeholder="Search Recipe or User Name">
+
+    <select name="All Categories" id="cat">
+      <option value="">All Categories</option>
+      <option value="">Appetizers</option>
+      <option value="">Beverages</option>
+      <option value="">Breakfast</option>
+      <option value="">Breads</option>
+      <option value="">Condiments</option>
+      <option value="">Desserts</option>
+      <option value="">Snacks</option>
+      <option value="">Main Dishes</option>
+      <option value="">Salads</option>
+      <option value="">Side Dishes</option>
+      <option value="">Soups</option>
+    </select>
+    <button id="btn">Search Recipes</button>
+
+    <button id="btn1">Search My Recipe</button>
+    <br><br><br>
+  </div>
+
+
+  <br><br>
+  <div id="parts">
+    <div>All Categories</div>
+    <div>Appetizers</div>
+    <div>Beverages</div>
+    <div>Breakfast</div>
+    <div>Breads</div>
+    <div>Condiments</div>
+    <div>Desserts</div>
+    <div>Snacks</div>
+    <div>Main Dishes</div>
+    <div>Salads</div>
+    <div>Side Dishes</div>
+    <div>Soups</div>
+
+  </div>
+
+  <div id="page">
+    <div>Page:</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+
+
+  </div>
+
+
+
+
+ <div id="container">
+
+ </div>
+
+
+
+
+ <br>
+
+ <br>
+
+
+
+ 
+</body>
+
+</html>
+
+
+
+<script src="recipedata.js">
+
+</script>
