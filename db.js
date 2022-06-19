@@ -77,8 +77,8 @@ let data = {
             "latestNewsAndVideo":
                     [
                         {
-                            "imgUrl":"https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/283210376_505164994685720_366849823846066202_n.jpg?stp=dst-jpg_s720x720&_nc_cat=105&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=jrwgmVym06QAX9270x7&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AT-OLEx3uUBzD9I8DaV9XtAlwjvxfaR1BseP8BzQ26xDoQ&oe=62ACA6BD",
-                            "discription":"Swedish Meatballs With Mash And Gravy 🇸🇪",
+                            "imgUrl":"https://scontent-xsp1-2.xx.fbcdn.net/v/t39.30808-6/287509614_5450426378350936_6144535164371406095_n.png?stp=dst-png_p720x720&_nc_cat=101&ccb=1-7&_nc_sid=8024bb&_nc_ohc=T63eP1a2mKoAX-oz5PI&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT9Cg1KIIhvFpBSmXUNp0hfrV30fot65-J2Voa-teXXAhg&oe=62B39D9A",
+                            "discription":"Happy Father''s Day To All The Amazing Dads Of All Shapes An..",
                             "article":
                                 {
                                     "img":
@@ -94,7 +94,7 @@ let data = {
                                 }
                         },
                         {
-                            "imgUrl":"https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/278979723_977865336135056_829345967473066298_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=pPlF2x2MBkYAX8d1ezU&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AT_TGpROsk-kMnIpzrSqxzVuGSBSwQBn8IP6VTkBnJBOgA&oe=62AE54AB",
+                            "imgUrl":"https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/279474393_712536943128428_5993674920669541398_n.jpg?stp=dst-jpg_s720x720&_nc_cat=110&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=jWZmKY6rsDoAX-QqJ40&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT9dK8kO-DfvAFc_kj6phUkhjHSzcz73fADCZh9W1qJwRA&oe=62B3F0A1",
                             "discription":"Scientists Use Crispr Gene Editing To Alter The Social Behav..",
                             "article":
                                 {
@@ -111,7 +111,7 @@ let data = {
                                 }
                         },
                         {
-                            "imgUrl":"https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/280697169_420481719680425_2519533840496617684_n.jpg?stp=dst-jpg_p720x720&_nc_cat=110&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eT6_x93Yx1kAX83Dea1&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AT-yGKeuD8B0ygP0CbJHurdw3ckTT_QgOEE4Axz_UD4Lwg&oe=62ADFFCB",
+                            "imgUrl":"https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/278434022_5098481356853890_3267020072978560213_n.jpg?stp=dst-jpg_s720x720&_nc_cat=107&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=fi4LEo3Qz0wAX8R7WAp&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT8oTnWFEYxo9I77GFVsWNF7nWSerYbHaMWJRDy4-mC0IA&oe=62B33843",
                             "discription":"Kaya Harbor Seal Sealebrates Birthday With Friends",
                             "article":
                                 {
@@ -129,7 +129,7 @@ let data = {
                                 }
                         },
                         {
-                            "imgUrl":"https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/282060217_386411623429652_3546094542583801599_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=bC6Yw08AalgAX9Uy4in&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AT9MgHx7hYQPPtV5obByoXhfts6F2dajHFc4Tq8S8OnLNA&oe=62ACDC6D",
+                            "imgUrl":"https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/118936299_337625310935276_3997630193772583091_n.jpg?stp=dst-jpg_s720x720&_nc_cat=107&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=QreweW6WRiAAX-N8acH&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT_avPGSr1qo6jh-Nazzb74faWaOYhEQaPYgzWGeUcWDsg&oe=62B3B6EA",
                             "discription":"Hundreds Of Tiny Rare Butterflies Head Into The Wild",
                             "article":
                                 {
@@ -146,7 +146,7 @@ let data = {
                                 }
                         },
                         {
-                            "imgUrl":"https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/279958094_1385161191953183_7922181364608512557_n.jpg?stp=dst-jpg_s720x720&_nc_cat=110&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=BiIOIzaHyb4AX84KlCh&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AT_zt0SFSdYUxVcCXBTqSLsw6bfcaK0iHE0cyTuKMOFnoA&oe=62ACB326",
+                            "imgUrl":"https://scontent-xsp1-2.xx.fbcdn.net/v/t39.30808-6/287041754_5446098342117073_6660978878986206579_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&ccb=1-7&_nc_sid=8024bb&_nc_ohc=LQJKjsgHVIcAX9vHtQr&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT81qxtAed3cZeCKq2FZSQM9whzw0YzgDnxqMTmhwUWNKw&oe=62B31C8A",
                             "discription":"Are Consumers Ready For Cultivated Meat?",
                             "article":
                                 {

@@ -18,13 +18,13 @@ let navbar = () =>{
 
 let categoryItems = () =>{
     return `<ul id="items_category_list">
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="">Meal Deals</a></li>
+    <li><a class="active" href="./index.html">Home</a></li>
+    <li><a href="../meal_deal/meal.html">Meal Deals</a></li>
     <li><a href="">KindMoments</a></li>
     <li><a href="">Hot Picks</a></li>
     <li><a href="">Recipes</a></li>
-    <li><a href="">Directory</a></li>
-    <li><a href="">Articles</a></li>
+    <li><a href="./Directory/directory.html">Directory</a></li>
+    <li><a href="./Article/article.html">Articles</a></li>
     <li><a href="">Help</a></li>
 </ul>`
 }
