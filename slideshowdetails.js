@@ -4,7 +4,7 @@ let cItems = document.getElementById("items_category");
 cItems.innerHTML = categoryItems();
 n.innerHTML = navbar();
 
-import {footer}  from "../Unit_3_Project_kindmeal/footer/footercomponents/footer.js"
+import {footer}  from "../footer/footercomponents/footer.js"
 let foot = document.getElementById("footer");
 foot.innerHTML = footer();
 

@@ -70,7 +70,7 @@ a{
     height:180%;
     width:48%;
     /* border:1px solid black; */
-    margin-top:-57%;
+    margin-top:-67%;
     margin-bottom:40px;
     /* padding:40px; */
     margin-left: 650px;
@@ -90,7 +90,10 @@ h1{
 
 ul{
     list-style: none;
-    margin: 2px 2px;
+    margin: 2px 0px;
+}
+li{
+    margin-left: -20px;
 }
 
 h1>a{

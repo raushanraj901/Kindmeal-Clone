@@ -636,43 +636,29 @@ pb.style.cursor="pointer"
 
 document.getElementById("articles").append(box)
 
-
-
-
-
-
-
-
-
-
     })
 }
 
 show(artii)
 
 function play(ele){
+    window.location.href="../meal_Deal/meal_ex.html"
  
-
-
-
-
-    
-    
-    var userarr=JSON.parse(localStorage.getItem("userinfo"))||[];
-    var userdata=
-    {   username:ele.name,
-        pic:ele.profilePic,
-        article:ele.article,
-        bg:ele.backgroundImg,
-        // data:ele.date,
+    // var userarr=JSON.parse(localStorage.getItem("userinfo"))||[];
+    // var userdata=
+    // {   username:ele.name,
+    //     pic:ele.profilePic,
+    //     article:ele.article,
+    //     bg:ele.backgroundImg,
+    //     // data:ele.date,
         
         
-    }
-    userarr.push(userdata)
-    console.log(userarr)
-    localStorage.setItem("userinfo",JSON.stringify(userarr))
+    // }
+    // userarr.push(userdata)
+    // console.log(userarr)
+    // localStorage.setItem("userinfo",JSON.stringify(userarr))
     
-    window.location.href="channel.html"
+    // window.location.href=""
 
 
     // var userinfo={
