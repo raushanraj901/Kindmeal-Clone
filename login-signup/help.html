@@ -9,10 +9,52 @@
     <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="../navbar.css">
     <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
 </head>
+<style>
+      /* navbar */
+   
+      #items_category_list3{
+        width: 100%;
+    background-color: #2bb673;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    }
+    li{
+        list-style: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    }
+    #items_category_list3>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+</style>
 <body>
     <div id="navbar"></div>
-    <div id="items_category"></div>
+    <ul id="items_category_list3">
+        <li><a  href="../index.html">Home</a></li>
+        <li><a href="../meal_Deal/meal.html">Meal Deals</a></li>
+        <li><a href="">KindMoments</a></li>
+        <li><a href="">Hot Picks</a></li>
+        <li><a href="">Recipes</a></li>
+        <li><a href="../Directory/directory.html">Directory</a></li>
+        <li ><a href="../Article/article.html">Articles</a></li>
+        <li class="active"> <a href="../login-signup/signup.html">Help</a></li>
+    </ul>
+
+
+
+
+    <div id="maindiv">
     <div id="vertical_div-1">
 
     <div id="one">
@@ -229,8 +271,19 @@
 
     </br>
     </div>
+</div>
 
     <div id="footer"></div>
 </body>
 </html>
-<script src="../index.js" type="module"></script>
+<script  type="module">
+    import { navbar , categoryItems} from "../navbar.js";
+let n = document.getElementById("navbar");
+// let cItems = document.getElementById("items_category");
+// cItems.innerHTML = categoryItems();
+n.innerHTML = navbar();
+
+
+
+
+</script>

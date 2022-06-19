@@ -18,8 +18,11 @@
 
     <link rel="stylesheet" href="../footer/footer.css" />
     <link rel="stylesheet" href="../submenu/submenu.css">
-    
-    <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"></script>
+
+     <!-- navbar -->
+     <link rel="stylesheet" href="../navbar.css">
+     <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"> </script>
+ 
 
     <title>Directory</title>
     <style>
@@ -36,11 +39,63 @@
     </style>
   <link rel="stylesheet" href="../navbar.css">
   </head>
+
+  <style> /* navbar */
+   
+    #items_category_list3{
+       width: 100%;
+   background-color: #2bb673;
+   display: flex;
+   justify-content: space-evenly;
+   
+
+   }
+   li{
+       list-style: none;
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+   padding: 10px 20px 10px 20px;
+   font-weight: 500;
+   font-size: 18px;
+   }
+   #items_category_list3>li>a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 20px 10px 20px;
+}
+/* ********* */
+   
+    .dm1{
+    color: #ffffff;
+     background-color: #15a759;  
+ } 
+ .dm1 a{
+  color: #ffffff;
+ }
+ .dm1:hover{
+  background-color: #148147;  
+
+ }
+ 
+ 
+  </style>
+
   <body>
-    <!-- navbar -->
-    <div id="navbar"></div>
-    <div id="items_category"></div>
-    <!-- // top content and some text  -->
+     <!-- Navbar -->
+
+ <div id="navbar"></div>
+ <ul id="items_category_list3">
+    <li><a  href="../index.html">Home</a></li>
+    <li><a href="../meal_Deal/meal.html">Meal Deals</a></li>
+    <li><a href="">KindMoments</a></li>
+    <li><a href="">Hot Picks</a></li>
+    <li><a href="">Recipes</a></li>
+    <li class="active"><a href="../Directory/directory.html">Directory</a></li>
+    <li ><a href="../Article/article.html">Articles</a></li>
+    <li><a href="../login-signup/help.html">Help</a></li>
+</ul>
+ <!-- ************* -->
+
+
     <div id="artContent">
       <div id="alignleft">
         <div class="artHead">Vegetarian Restaurants In Malaysia</div>
@@ -105,7 +160,7 @@
         <p>...</p>
         <p>1402</p>
       </div>
-      <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+      <div class="nxt">Next <i class="fa fa-angle-double-right nx"></i></div>
     </div>
     <div id="dContent"></div>
     <div id="aNumbers">
@@ -124,7 +179,7 @@
           <p>...</p>
           <p>1402</p>
         </div>
-       <div class="nxt"> Next <i class="fa fa-angle-double-right"></i></div>
+       <div class="nxt"> Next <i class="fa fa-angle-double-right nx"></i></div>
       </div>
 
     <div id="footer"></div>

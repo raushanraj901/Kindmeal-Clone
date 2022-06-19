@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="../Article/article.css" />
     <link rel="stylesheet" href="../footer/footer.css" />
     <link rel="stylesheet" href="../submenu/submenu.css">
+
+      <!-- navbar -->
+      <link rel="stylesheet" href="../navbar.css">
+      <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"> </script>
+  
     <title>Featured Restaurants</title>
 </head>
 <style>
@@ -25,6 +30,29 @@
     font-family: "Open Sans", serif;
 
 }
+/* navbar */
+   
+#items_category_list3{
+       width: 100%;
+   background-color: #2bb673;
+   display: flex;
+   justify-content: space-evenly;
+   
+
+   }
+   li{
+       list-style: none;
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+   padding: 10px 20px 10px 20px;
+   font-weight: 500;
+   font-size: 18px;
+   }
+   #items_category_list3>li>a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 20px 10px 20px;
+}
+/* ********* */
 /* submenu */
 .dm2{
     color: #ffffff;
@@ -88,6 +116,22 @@
     }
 </style>
 <body>
+ <!-- Navbar -->
+
+ <div id="navbar"></div>
+ <ul id="items_category_list3">
+    <li><a  href="../index.html">Home</a></li>
+    <li><a href="../meal_Deal/meal.html">Meal Deals</a></li>
+    <li><a href="">KindMoments</a></li>
+    <li><a href="">Hot Picks</a></li>
+    <li><a href="">Recipes</a></li>
+    <li class="active"><a href="../Directory/directory.html">Directory</a></li>
+    <li ><a href="../Article/article.html">Articles</a></li>
+    <li><a href="../login-signup/help.html">Help</a></li>
+</ul>
+ <!-- ************* -->
+
+
     <div id="artContent">  
         <!-- artContent -->
     </div>
@@ -110,7 +154,7 @@
           <p>...</p>
           <p>1402</p>
         </div>
-        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right nx"></i></div>
       </div>
       <!-- <div id="dContent"></div> -->
     
@@ -133,13 +177,18 @@
           <p>...</p>
           <p>1402</p>
         </div>
-        <div class="nxt">Next <i class="fa fa-angle-double-right"></i></div>
+        <div class="nxt">Next <i class="fa fa-angle-double-right nx"></i></div>
       </div>
       <div id="footer"></div>
     
 </body>
 </html>
 <script type="module">
+import { navbar , categoryItems} from "../navbar.js";
+let n = document.getElementById("navbar");
+n.innerHTML = navbar();
+
+
 
        import { featureR } from "../Article/Articlecomponents/artcontent.js";
   document.getElementById("artContent").innerHTML = featureR();

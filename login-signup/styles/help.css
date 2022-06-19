@@ -1,15 +1,22 @@
+*{
+    padding: 0;margin: 0;
+    font-family: 'Open Sans', serif;
+
+}
+
 #vertical_div-1{
     height:100%;
-    width: 300px;
-    /* border:1px solid black; */
-    margin-top:100px;
+    width: 220px;
+   
+    /* margin-top:50px; */
     margin-bottom:40px;
-    margin-left:290px;
+    margin-left:140px;
     margin-right: 60px;
     
 }
 #one{
-    height:150%;
+    /* height:150%; */
+    height:100%;
     width:100;
     justify-content:center;
     align-items:center;
@@ -24,7 +31,8 @@
 }
 
 #two{
-    height:150%;
+    height:100%;
+    border: 1px solid red;
     width:100;
     justify-content:center;
     align-items:center;
@@ -103,19 +111,20 @@ h3>a{
 
 
 #vertical_div-2{
-  
+  text-align: left;
     height:100%;
-    width:50%;
+    width:60%;
+    padding: 30px;
     /* border:1px solid black; */
-    margin-top:-107%;
-    margin-bottom:40px;
+    /* margin-top:-107%; */
+    /* margin-bottom:40px;
     /* padding:40px; */
-    margin-left: 650px;
+    /* margin-left: 650px;
     margin-right: 300px;
     padding-right:60px;
     padding-left:60px;
     padding-top:60px;
-    padding-bottom:60px;
+    padding-bottom:60px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 
 }
@@ -130,4 +139,39 @@ a{
     /* font-size: 20; */
 }
 
+
+
+/* changes */
+#maindiv{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+#vertical_div-2 h1{
+    font-size: 30px;
+    color: #333333;
+    font-weight: normal;
+}
+
+#vertical_div-2 h2{
+    font-size: 22px;
+    color: #333333;
+    font-weight: normal;
+
+}
+#vertical_div-2 p{
+    font-size: 14px;
+    color: #444444;
+}
+#vertical_div-1 h3>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+
+}
+#vertical_div-1 div{
+    height:180px;
+    border: 1px solid rgb(197, 190, 190);
+}
 
