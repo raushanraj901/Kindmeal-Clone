@@ -70,7 +70,7 @@ a{
     height:180%;
     width:48%;
     /* border:1px solid black; */
-    margin-top:-55%;
+    margin-top:-57%;
     margin-bottom:40px;
     /* padding:40px; */
     margin-left: 650px;
@@ -88,13 +88,19 @@ h1{
 
 }
 
-
+ul{
+    list-style: none;
+    margin: 2px 2px;
+}
 
 h1>a{
 
     color: rgb(17, 36, 208);
     font-size: 35px;
     margin-top: -12px;
+}
+img{
+    height: 98%;
 }
 
 p{
