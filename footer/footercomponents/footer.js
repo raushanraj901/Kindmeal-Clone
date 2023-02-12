@@ -53,6 +53,15 @@ let footer = () =>{
        <p> Feed The Poor</p>
        <p> Win Superhero Gifts</p>
       <p>  Win an iPad Mini 3</p></div>
+      <div class="petfinder"><p class="font14">Pet Finder</p >
+    
+       <p> Adopt A Pet</p>
+       <p> Smartphone Apps</p>
+       <p> WAGazine</p>
+       <p> Discussion Forum</p>
+       <p> Medical Fund</p>
+    
+    </div>
     </div>
     <div><p class="font14">Pet Finder</p >
     
