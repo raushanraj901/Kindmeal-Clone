@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>help-page</title>
+    <title>Signup-page</title>
     <link rel="stylesheet" href="./styles/signup.css">
+    <!-- <link rel="stylesheet" href="../footer/footer.css"> -->
+    <!-- <link rel="stylesheet" href="../navbar.css"> -->
+    <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="/unit_3_project_Kindmeal/styles/footer.css"> -->
+    <style>
+   
+        #items_category_list3{
+           width: 100%;
+       background-color: #2bb673;
+       display: flex;
+       justify-content: space-evenly;
+       
+      
+       }
+       li{
+           list-style: none;
+       font-family: 'Roboto', Arial, Helvetica, sans-serif;
+       padding: 10px 20px 10px 20px;
+       font-weight: 500;
+       font-size: 18px;
+       }
+       #items_category_list3>li>a{
+       text-decoration: none;
+       color: white;
+       padding: 10px 20px 10px 20px;
+      }
+      #main_container{
+        display: flex;
+        margin: auto;
+        width: 90%;
+       
+        
+      }
+      
+      </style>
 </head>
 <body>
-    <div id="header">
-
-    </div>
+    <!-- <div id="navbar"></div>
+    <ul id="items_category_list3">
+        <li ><a  href="../index.html">Home</a></li>
+        <li ><a href="../meal_Deal/meal.html">Meal Deals</a></li>
+        <li ><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
+        <li><a href="../Hot Pics page/hot.html">Hot Picks</a></li>
+        <li><a href="../Recipe Page/recipes.html">Recipes</a></li>
+        <li ><a href="../Directory/directory.html">Directory</a></li>
+        <li ><a href="../Article/article.html">Articles</a></li>
+        <li><a href="../login-signup/help.html">Help</a></li>
+    </ul> -->
+   
+    <div id="main_container">
     <div id="vertical_div-1">
 
     <div id="one">
@@ -26,7 +70,7 @@
 
     
 
-    <div id="three">
+    <!-- <div id="three">
         <h2>Why KindMeal?</h2>
         <ul>
             <li>Exclusive meat-free deals</li>
@@ -38,11 +82,12 @@
             <li>No upfront payment, booking or printing</li>
             <p><a href="">More about KindMeal »</a></p>
         </ul>
-    </div>
+    </div> -->
     </div>
 
-    <div id="vertical_div-2">
-        <form>
+     <div>
+    <br id="vertical_div-2">
+        <br>
         
             <h1>Food Lover? Sign Up Now or<a href="">Login With Facebook</a></h1>
             <br>
@@ -55,26 +100,27 @@
              We collaborate with kind restaurants and cafes across the nation to bring you delicious meat-free foods
               that will not only help save precious animal lives, but improve your health and save your money at the same time!
         </p>
-        
-        <label for="">Your Name</label><input id="First_name"type="text" required/><input id="Last_name"type="text" placehoder="Last name" required/>
-        <pre> </pre>
+    <br>
+    <form>
+        <label for="">Your Name</label>
+        <input id="First_name"type="text" required/></br>
+        <label for="">Last Name</label>
+        <input id="Last_name"type="text" placehoder="Last name" required/></br>
+      
 
-        <h6>Your email must be connect to receive activation email</h6>
-        <label for="">Email</label><input id="email"type="email" placehoder="" required/>
-        <pre> </pre>
+        <label for="">Email</label><input id="email"type="text" placehoder="" required/></br>
+       
 
-        <label for="">Re-Enter Email:</label><input id="re-email"type="email" placehoder="" required/>
-        <pre> </pre>
+        <label for="">Re-Enter Email:</label><input id="re-email"type="text" placehoder="" required/>
+    </br>
 
         <label for="">Password</label><input id="password"type="text" placehoder=""required/>
-        <pre> </pre>
+    </br>
+    
 
-        <h6>Choose a cool username for your Personal Profile page, comments & reviews</h6>
-        <h4>http://KindMeal.my/Username</h4>
         <label for="">Username</label><input id="username" type="text"required/> 
-        <pre> </pre>
-
-        <h6>Only your age will be publicly visible</h6>
+    </br>
+       <div id="dobY">
         <label for="">Birth Date</label>
         <select name="" id="Month">
             <option value="">Month</option>
@@ -91,7 +137,7 @@
             <option value="">Nov</option>
             <option value="">Dec</option>
         </select>
-    
+ 
 
        
         <select name="" id="Day">
@@ -128,8 +174,7 @@
             <option>30</option>
             <option>31</option>
         </select>
-    
-       
+
       
         <select name="" id="Year">
             <option>Year</option>
@@ -149,9 +194,9 @@
             <option>2004</option>
             <option>2003</option>   
             </select>
-            <pre> </pre>
+        </br>
             
-        
+    </div>
 
         <label for="">Country</label>
         <select name="" id="Country">
@@ -171,8 +216,8 @@
             <option>Bangladesh</option>
             <option>Combo</option>  
         </select>
-        <pre> </pre>
-
+ 
+    </br>
 
         <label for="">State</label>
         <select name="" id="State">
@@ -185,64 +230,57 @@
             <option>Bihar</option>
             <option>Karnataka</option>   
         </select>
-        <pre> </pre>
+    </br>
+      
+    <div>
+        <!-- <label for="radio">Gender</label> -->
+         <label for="">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         Male <input type="radio" id="Male" name="gender" value="male" checked>
+        <!-- <label for="male">Male</label> -->
+        Female <input type="radio" id="Female" name="gender" value="female" checked>
+        <!-- <label for="female">Female</label> -->
+    </div>
 
+</br>
+<label for="">Profile Photo:</label>
+<input type="file" name="" id="Photo">
+</br>
+</br>
 
+   <input type="checkbox" id="terms" name="terms" checked>
+ <label for="">I agree to KindMeal.my's Terms & Conditions</label>
+ <pre> </pre>
+
+   <input type="submit" name="" id="btn" value="Join-Now">
+    </div>
        
 
-            <div>
-                <!-- <label for="radio">Gender</label> -->
-                 <label for="">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 male <input type="radio" id="Male" name="gender" value="male" checked>
-                <!-- <label for="male">Male</label> -->
-                female <input type="radio" id="Female" name="gender" value="female" checked>
-                <!-- <label for="female">Female</label> -->
-            </div>
-
+          
        
     
-        <pre> </pre>
-        <label for="">Profile Photo:</label>
-        <input type="file" name="" id="Photo">
+     
 
-        <pre>
-
-        </pre>
-
-        <input type="checkbox" id="terms" name="terms" checked>
-      <label for="">I agree to KindMeal.my's Terms & Conditions</label>
-      <pre> </pre>
-
-        <input type="submit" name="" id="btn" value="Join-Now">
+  
         </form>
         </div>
+    </div>
+</div>
         <pre></pre>
+   
+
 
         <hr class="clear">
-      <div id="foot_div">
+      <!-- <div id="foot_div">
         <div id="foot_img">
             <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt="abc"/>
         </div>
         </div>
-
-       
-    
         </div> 
         </div>
+         </form> -->
+    </div>
+        <!-- <div id="footer"></div> -->
         </body>
         </html>
         <script src="signup.js"></script>
-
-       <!-- <script type="module">
-        import { footer } from "./components/footer.js";
-        let take=document.querySelector("#footer");
-        take.innerHTML=footer();
-       </script> -->
-
-<!-- 
-       <script type="module" >
-        import {footer} from "./components/footer.js"
-        let foot = document.getElementById("footer").innerHTML=footer();
-    </script> -->
-      
-       
+        <!-- <script src="../index.js" type="module"></script> -->
