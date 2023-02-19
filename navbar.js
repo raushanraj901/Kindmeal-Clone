@@ -1,5 +1,5 @@
-let navbar = () =>{
-    return `<div class="nav_logo">
+let navbar = () => {
+  return `<div class="nav_logo">
     <img src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="logo">
 </div>
 <div class="social_media_rediretion">
@@ -14,10 +14,10 @@ let navbar = () =>{
     <p class="line">|</p>
     <a href="../login-signup/popuppage.html">Sign Up</a>
 </div>`;
-}
+};
 
-let categoryItems = () =>{
-    return `<ul id="items_category_list">
+let categoryItems = () => {
+  return `<ul id="items_category_list">
     <li><a href="../index.html">Home</a></li>
     <li><a href="../meal_deal/meal.html">Meal Deals</a></li>
     <li><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
@@ -26,7 +26,25 @@ let categoryItems = () =>{
     <li><a href="../Directory/directory.html">Directory</a></li>
     <li><a href="../Article/article.html">Articles</a></li>
     <li><a href="../login-signup/help.html">Help</a></li>
-</ul>`
-}
+</ul>`;
+};
 
-export {navbar, categoryItems};
+// select menu
+let selectmenu = () => {
+  return `   <select class="selectmenu">
+    <option value="">🍟 Select Menu Directory 🍟</option>
+
+    <option value="../index.html">Home</option>
+    <option value="../meal_Deal/meal.html">Meal Deals</option>
+    <option value="../Kindmoment Page/kindmoment.html">
+      KindMoments
+    </option>
+    <option value="../Hot Pics page/hot.html">Hot Picks</option>
+    <option value="../Recipe Page/recipes.html">Recipes</option>
+    <option value="../Directory/directory.html">Directory</option>
+    <option value="../Article/article.html">Articles</option>
+    <option value="../login-signup/help.html">Help</option>
+  </select>`;
+};
+
+export { navbar, categoryItems, selectmenu };

@@ -570,7 +570,7 @@ function createPost(i){
  </div>
 <p class="padded" style="margin: 3px 3px 7px 3px;">${mockapi[i].desc}</p>
 <button onclick="newPage(i)" class="inline post-buttons">Get FREE Coupon</button> <div class=star${i} style="display:inline-block;"><div class="stars-outer"><div class="stars-inner"></div></div></div><p class="inline" style="margin-left: 2%; font-size: 12px;">(15)</p>
-<div class=" bordertop" style="margin-bottom: 0px;display: flex; flex-wrap: nowrap; padding: 0% 2%;margin-top: 10px;height: 55px;" >
+<div  class="subdivbtm bordertop"  >
      <div style="flex-direction: row;flex-grow: 1;width: 0%; padding-top: 10px;" class="borderright">
          <span class="selected icons popup"><img  class="scale" src=${egg} alt=""><span class=${estate} id="myPopup">Contains egg</span></span><span class="selected icons popup"><img class="scale" src=${milk} alt=""><span class=${mstate} id="myPopup1">Contains Dairy products<br/>(i.e milk,cheese)</span></span><span class="selected icons popup" ><img class="scale" src=${wine} alt=""><span class=${wstate} id="myPopup2">Contains Alcohol<br/>(i.e beer,wine,liqour)</span></span>
      </div>
@@ -638,3 +638,6 @@ function getLocation(num){
 function newPage(i){
     location.href = `./meal_ex.html?q=${i}`;
 }
+
+
+
