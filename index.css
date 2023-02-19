@@ -103,7 +103,7 @@ li {
 .main_content_container {
   width: 80%;
   margin: auto;
-  
+
   /* box-shadow: 0px 0px 6px #e0e0e0; */
   margin-top: 30px;
   cursor: pointer;
@@ -319,7 +319,6 @@ li {
 /* media queries */
 
 @media only screen and (max-width: 998px) {
-
   #offerContainer {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
@@ -334,9 +333,7 @@ li {
   }
   #join_btn div {
     width: 45%;
-  
   }
-
 }
 @media only screen and (max-width: 768px) {
   .content_head > div > ul {
@@ -348,7 +345,6 @@ li {
 
   #join_btn div {
     width: 60%;
-  
   }
 }
 @media only screen and (max-width: 480px) {
@@ -401,13 +397,11 @@ li {
   }
   #join_btn div {
     width: 80%;
-  
   }
-  #whyKindMeal{
+  #whyKindMeal {
     display: none;
-
   }
-  .petfinder{
+  .petfinder {
     margin-top: -15rem;
   }
 }

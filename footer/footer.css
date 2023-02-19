@@ -5,10 +5,10 @@
 #footer {
   background-color: #2bb673;
   padding-bottom: 20px;
-  border: 1px solid red;
+ 
 }
 #finnerdiv {
-  border: 1px solid red;
+  
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 20px;

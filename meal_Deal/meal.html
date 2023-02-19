@@ -1,159 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="meal_d.css">
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="../navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/22064d7ea4.js" crossorigin="anonymous"></script>
-    <style type="text/css" >
-        body{
-            font-family: 'Roboto', sans-serif;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Deal</title>
+    <link rel="stylesheet" href="meal_d.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
+    <link rel="stylesheet" href="../navbar.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/22064d7ea4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      body {
+        font-family: "Roboto", sans-serif;
+      }
     </style>
-    <style>
-   
-        #items_category_list3{
-           width: 100%;
-       background-color: #2bb673;
-       display: flex;
-       justify-content: space-evenly;
-       
-     
-       }
-       li{
-           list-style: none;
-       font-family: 'Roboto', Arial, Helvetica, sans-serif;
-       padding: 10px 20px 10px 20px;
-       font-weight: 500;
-       font-size: 18px;
-       }
-       #items_category_list3>li>a{
-       text-decoration: none;
-       color: white;
-       padding: 10px 20px 10px 20px;
-     }
-     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="navbar"></div>
-    <ul id="items_category_list3">
-        <li ><a  href="../index.html">Home</a></li>
+    <div style="width: 100%">
+      <ul id="items_category_list3">
+        <li><a href="../index.html">Home</a></li>
         <li class="active"><a href="../meal_Deal/meal.html">Meal Deals</a></li>
         <li><a href="../Kindmoment Page/kindmoment.html">KindMoments</a></li>
         <li><a href="../Hot Pics page/hot.html">Hot Picks</a></li>
         <li><a href="../Recipe Page/recipes.html">Recipes</a></li>
-        <li ><a href="../Directory/directory.html">Directory</a></li>
-        <li ><a href="../Article/article.html">Articles</a></li>
+        <li><a href="../Directory/directory.html">Directory</a></li>
+        <li><a href="../Article/article.html">Articles</a></li>
         <li><a href="../login-signup/help.html">Help</a></li>
-    </ul>
+      </ul>
+    </div>
+    <div id="select_navbar"></div>
     <div id="topbody">
-        <div id="top">
-            <pre class="inline"><h2 class="inline"><span class="inline">Meat-Free Deals </span> | <span class="lighter inline"> Restaurants In Malaysia</span></h2></pre> 
-            <br>
-            <br>
-            <p>Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants.<br/> No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount!</p>
-            <br>
-            <p>Download our <a href="">mobile app</a> now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>
-            <br>
-            <form class="inline" action=""><input type="text" id="searchs" placeholder="Search Shop or Deal Name"><select name="options" id="option">
-                <option value="">All Categories</option>
-                <option value="pasta">Pasta</option>
-                <option value="burger">Burger</option>
-                <option value="breakfast">Breakfast</option>
-                <option value="salad">Salad</option>
-                <option value="bakery">Bakery</option>
-                <option value="hightea">Tea & Dessert</option>
-                <option value="local">Local Delights</option>
-                <option value="japanesekorean">Jap & Korean</option>
-                <option value="chinesevegetarian">Chinese</option>
-                <option value="soup">Soup</option>
-                <option value="cute">Cute</option>
-                
-            </select>
-        <select name="" id="city">
-                <option value="0">All Locations</option>
-                <option value="">Klang Valley</option>
-                <option value="60">&bull;&nbsp; Kuala Lumpur</option>
-                <option value="42">&bull;&nbsp; Petaling Jaya</option>
-                <option value="20">&bull;&nbsp; Ampang</option>
-                <option value="21">&bull;&nbsp; Ara Damansara</option>
-                <option value="22">&bull;&nbsp; Bangsar</option>
-                <option value="23">&bull;&nbsp; Bangsar South</option>
-                <option value="24">&bull;&nbsp; Bukit Bintang</option>
-                <option value="26">&bull;&nbsp; Bukit Damansara</option>
-                <option value="27">&bull;&nbsp; Cheras</option>
-                <option value="29">&bull;&nbsp; Damansara Heights</option>
-                <option value="30">&bull;&nbsp; Damansara Perdana</option>
-                <option value="31">&bull;&nbsp; Damansara Utama</option>
-                <option value="62">&bull;&nbsp; Ipoh</option>
-                <option value="33">&bull;&nbsp; Kelana Jaya</option>
-                <option value="34">&bull;&nbsp; Kepong</option>
-                <option value="35">&bull;&nbsp; Klang</option>
-                <option value="37">&bull;&nbsp; Kota Damansara</option>
-                <option value="39">&bull;&nbsp; Mont Kiara</option>
-                <option value="40">&bull;&nbsp; Mutiara Damansara</option>
-                <option value="41">&bull;&nbsp; Old Klang Road</option>
-                <option value="44">&bull;&nbsp; Puchong</option>
-                <option value="45">&bull;&nbsp; Pudu</option>
-                <option value="46">&bull;&nbsp; Putrajaya</option>
-                <option value="48">&bull;&nbsp; Sepang</option>
-                <option value="50">&bull;&nbsp; Seri Kembangan</option>
-                <option value="51">&bull;&nbsp; Setapak</option>
-                <option value="52">&bull;&nbsp; Shah Alam</option>
-                <option value="53">&bull;&nbsp; Sri Hartamas</option>
-                <option value="54">&bull;&nbsp; Sri Petaling</option>
-                <option value="55">&bull;&nbsp; Subang</option>
-                <option value="56">&bull;&nbsp; Taman Desa</option>
-                <option value="58">&bull;&nbsp; Taman Tun</option>
-                <option value=""></option>
-                <option value="">Other States</option>
-                <option value="41361" >&bull;&nbsp; Terengganu</option>
-                <option value="41330" >&bull;&nbsp; Perak</option>
-            </select></form><button id="search" class="inline">Search Deals</button><button id="browse" class="inline">Browse Restaurants</button>
-        </div>
+      <div id="top">
+        <pre
+          class="inline"
+        ><h2 class="inline"><span class="inline">Meat-Free Deals </span> | <span class="lighter inline"> Restaurants In Malaysia</span></h2></pre>
+        <br />
+        <br />
+        <p>
+          Browse delicious meat-free, vegetarian deals from top restaurants and
+          cafes! Just click on "Get Free Coupon" to obtain instant discounts and
+          dine at the restaurants.<br />
+          No upfront payment, booking or printing is needed. If you share it on
+          social media, you'll even DOUBLE your discount!
+        </p>
+        <br />
+        <p>
+          Download our <a href="">mobile app</a> now to easily get coupons and
+          start dining in a few seconds. Effortlessly save lives, health,
+          environment and money now!
+        </p>
+        <br />
+        <form id="form" class="inline" action="">
+          <input
+            type="text"
+            id="searchs"
+            placeholder="Search Shop or Deal Name"
+          />
+          <select name="options" id="option">
+            <option value="">All Categories</option>
+            <option value="pasta">Pasta</option>
+            <option value="burger">Burger</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="salad">Salad</option>
+            <option value="bakery">Bakery</option>
+            <option value="hightea">Tea & Dessert</option>
+            <option value="local">Local Delights</option>
+            <option value="japanesekorean">Jap & Korean</option>
+            <option value="chinesevegetarian">Chinese</option>
+            <option value="soup">Soup</option>
+            <option value="cute">Cute</option>
+          </select>
+          <select name="" id="city">
+            <option value="0">All Locations</option>
+            <option value="">Klang Valley</option>
+            <option value="60">&bull;&nbsp; Kuala Lumpur</option>
+            <option value="42">&bull;&nbsp; Petaling Jaya</option>
+            <option value="20">&bull;&nbsp; Ampang</option>
+            <option value="21">&bull;&nbsp; Ara Damansara</option>
+            <option value="22">&bull;&nbsp; Bangsar</option>
+            <option value="23">&bull;&nbsp; Bangsar South</option>
+            <option value="24">&bull;&nbsp; Bukit Bintang</option>
+            <option value="26">&bull;&nbsp; Bukit Damansara</option>
+            <option value="27">&bull;&nbsp; Cheras</option>
+            <option value="29">&bull;&nbsp; Damansara Heights</option>
+            <option value="30">&bull;&nbsp; Damansara Perdana</option>
+            <option value="31">&bull;&nbsp; Damansara Utama</option>
+            <option value="62">&bull;&nbsp; Ipoh</option>
+            <option value="33">&bull;&nbsp; Kelana Jaya</option>
+            <option value="34">&bull;&nbsp; Kepong</option>
+            <option value="35">&bull;&nbsp; Klang</option>
+            <option value="37">&bull;&nbsp; Kota Damansara</option>
+            <option value="39">&bull;&nbsp; Mont Kiara</option>
+            <option value="40">&bull;&nbsp; Mutiara Damansara</option>
+            <option value="41">&bull;&nbsp; Old Klang Road</option>
+            <option value="44">&bull;&nbsp; Puchong</option>
+            <option value="45">&bull;&nbsp; Pudu</option>
+            <option value="46">&bull;&nbsp; Putrajaya</option>
+            <option value="48">&bull;&nbsp; Sepang</option>
+            <option value="50">&bull;&nbsp; Seri Kembangan</option>
+            <option value="51">&bull;&nbsp; Setapak</option>
+            <option value="52">&bull;&nbsp; Shah Alam</option>
+            <option value="53">&bull;&nbsp; Sri Hartamas</option>
+            <option value="54">&bull;&nbsp; Sri Petaling</option>
+            <option value="55">&bull;&nbsp; Subang</option>
+            <option value="56">&bull;&nbsp; Taman Desa</option>
+            <option value="58">&bull;&nbsp; Taman Tun</option>
+            <option value=""></option>
+            <option value="">Other States</option>
+            <option value="41361">&bull;&nbsp; Terengganu</option>
+            <option value="41330">&bull;&nbsp; Perak</option>
+          </select>
+        </form>
+        <br />
+        <button id="search">Search Deals</button
+        ><button id="browse">Browse Restaurants</button>
+      </div>
     </div>
     <div id="mainbody">
-      
-        <div id="imgbox">
-            <img src="https://www.kindmeal.my/images/banner_directory.jpg" alt="">
-        </div>
-        <div id="buttons1">
-
-        </div>
-        <div id="posts" class="flexbox">
-           
-        </div>
-        <div id="buttons2">
-
-        </div>
+      <div id="imgbox">
+        <img src="https://www.kindmeal.my/images/banner_directory.jpg" alt="" />
+      </div>
+      <div id="buttons1"></div>
+      <div id="posts" class="flexbox"></div>
+      <div id="buttons2"></div>
     </div>
-    <div id="bottombody" style="text-align: center; margin-top: 130px;">
-        <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt="">
+    <div id="bottombody" style="text-align: center; margin-top: 130px">
+      <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt="" />
     </div>
-   
+
     <!-- footer -->
-    <div id="footer">
-       
-    </div>
-</body>
+    <div id="footer"></div>
+  </body>
 </html>
 
-<script  src="./meal.js"></script>
+<script src="./meal.js"></script>
 <script src="../index.js" type="module"></script>
 
 <script type="module">
-    import { navbar, categoryItems } from "../navbar.js";
-    document.getElementById("navbar").innerHTML = navbar();
-    // document.getElementById("categoryItems").innerHTML = categoryItems();
-    
-     import {footer} from "./footer.js";
-     document.getElementById("footer").innerHTML=footer();
-    
-    </script>
+  import { navbar, categoryItems, selectmenu } from "../navbar.js";
+  document.getElementById("navbar").innerHTML = navbar();
+  //
+  let select_navbar = (document.getElementById("select_navbar").innerHTML =
+    selectmenu());
+  let select = document.querySelector(".selectmenu");
+  select.addEventListener("change", () => {
+    let value = select.value;
+    console.log(value);
+    window.location.href = value;
+  });
+
+  import { footer } from "../footer/footercomponents/footer.js";
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+</script>
